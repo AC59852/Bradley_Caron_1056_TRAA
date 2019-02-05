@@ -2,13 +2,15 @@ html
 {
 	font-family: lato;
 	color: white;
+	width: 
 }
 
-body
+#homeBck
 {
 	background-color: lightgray;
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
+
 }
 
 .hidden
@@ -19,12 +21,12 @@ body
 .blackBar
 {
 	background-color: rgba(51, 51, 51, 0.5);
-	margin-top: 60px;
+	margin: 60px auto 0;
 	height: 75px;
 }
 
 
-#topNav ul
+.topNav ul
 {
 	
 	display: flex;
@@ -33,13 +35,13 @@ body
 	justify-content: space-evenly;
 }
 
-#topNav ul li
+.topNav ul li
 {
 	padding: 25px 15px 0 20px;
 	letter-spacing: 2px;
 }
 
-#topNav ul li a
+.topNav ul li a
 {
 	font-size: 20px;
 	color: white;
@@ -102,7 +104,114 @@ body
 	flex-direction: column;
 }
 
-#container
+#iconContainer
 {
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 200px; 	
+	flex-wrap: wrap;
+	min-width: 60%;
+	max-width: 60%;
+	margin-left: 300px;
+	padding-bottom: 115px;
 }
+
+@media only screen and (max-width: 1680px) {
+#iconContainer {
+	margin-left: 175px;
+	min-width: 65%;
+	max-width: 65%;
+	}
+#logo {
+	margin-left: ;
+}
+}
+.iconSize
+{
+	background-color: #333333;
+	height: 130px;
+	width: 130px;
+	margin-bottom: 120px;
+	margin-left: 200px;
+	padding-left: 30px;
+}
+
+#histDivider
+{
+	height: 200px;
+	background-color: #333333;
+	margin-bottom: 100px;
+}
+
+#histDivider h2
+{
+	font-family: lato light;
+	text-align: center;
+	font-size: 38px;
+	padding-top: 20px;
+	letter-spacing: 2px;
+}
+
+#histDivider p
+{
+	text-align: center;
+	font-size: 20px;
+	width: 70%;
+	margin: 0 280px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+#whiteBarHist
+{
+	height: 4px;
+	margin: 30px auto;
+	background-color: white;
+	width: 120px;
+}
+
+#histExt
+{
+	color: black;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.histPara
+{
+	font-size: 18px;
+	width: 75%;
+	margin: 0 auto;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+#para2
+{
+	padding-top: 100px;
+}
+
+#histExt img
+{
+	padding: 0 100px 0 300px; 
+}
+
+#histImages
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+.imageText
+{
+	margin-top: -50px;
+	margin-left: 200px;
+	font-size: 20px;
+	color: black;
+	overflow: hidden;
+	color: white;
+}
+
+

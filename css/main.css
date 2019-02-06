@@ -195,7 +195,8 @@ html
 
 #histExt img
 {
-	padding: 0 100px 0 300px; 
+	padding: 0 100px 0 300px;
+	margin-left: 75px;
 }
 
 #histImages
@@ -208,7 +209,7 @@ html
 .imageText
 {
 	margin-top: -50px;
-	margin-left: 200px;
+	margin-left: 280px;
 	font-size: 20px;
 	color: black;
 	overflow: hidden;

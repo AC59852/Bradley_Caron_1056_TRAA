@@ -1,13 +1,75 @@
 html
 {
-	font-family: 'Lato', sans-serif;
 	color: white;
 	width: 
 }
 
+@font-face {
+    font-family: 'open_sansregular';
+   	src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.woff') format('woff');
+     
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('OpenSans-LightItalic-webfont.eot');
+    src: url('OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-LightItalic-webfont.woff2') format('woff2'),
+         url('OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('../fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'glacial_indifferenceitalic';
+    src: url('glacialindifference-italic-webfont.woff2') format('woff2'),
+         url('glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('../fonts/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #homeBck
 {
-	background-color: lightgray;
+	background-image: url(../images/bck2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -43,6 +105,7 @@ html
 
 .topNav ul li a
 {
+	font-family: 'open_sansregular';
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
@@ -50,39 +113,37 @@ html
 
 #logo
 {
-	background-color: #333333;
-	width: 20%;
+
 	margin-top: -15px;
 	height: 200px; 
 }
 
-#logo p
-{
-	text-align: center;
-	font-size: 32px;
-	padding-top: 75px;
-}
-
 #title
 {
-	background-color: #333333;
+	font-family: 'glacial_indifferenceregular';
 	display: flex;
-	width: 70%;
+	width: 760px;
 	height: 400px;
 	margin: 175px auto;
-	font-size: 40px;
-	align-items: center;
+	font-size: 90px;
 	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 50px;
+
 }
 
+#textBox span
+{
+	padding-top: 20px;
+}
 #slogan
 {
-	background-color: #333333;
-	width: 40%;
+	font-family: 'open_sanslight';
 	height: 100px;
-	margin: -150px auto 100px;
+	margin: -200px auto 124px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 38px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -90,14 +151,27 @@ html
 
 #aboutBtn
 {
+
 	width: 15%;
 	height: 50px;
 	background-color: #333333;
 	margin: -60px auto 50px; 
 	color: white;
 	font-size: 18px;
+	border-color: black;
+	justify-content: center;
+	display: flex; 
 }
 
+
+#aboutBtn a
+{
+	font-family: 'open_sansregular';
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	padding-top: 10px;
+}
 #textBox
 {
 	display: flex;

@@ -1,7 +1,6 @@
 html
 {
 	color: white;
-	width: 
 }
 
 @font-face {
@@ -195,10 +194,9 @@ html
 	flex-direction: row;
 	margin-top: 200px; 	
 	flex-wrap: wrap;
-	min-width: 60%;
-	max-width: 60%;
+	width: 1100px;
+	margin: 210px auto;
 	margin-left: 300px;
-	padding-bottom: 115px;
 }
 
 

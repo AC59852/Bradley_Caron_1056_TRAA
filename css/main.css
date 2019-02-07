@@ -80,6 +80,8 @@ html
 	display: none;
 }
 
+/* Start of Homepage*/
+
 .blackBar
 {
 	background-color: rgba(51, 51, 51, 0.5);
@@ -87,6 +89,12 @@ html
 	height: 75px;
 }
 
+.navBck
+{
+	background-image: url(../images/navBck.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 
 .topNav ul
 {
@@ -95,13 +103,6 @@ html
 	flex-direction: row;
 	justify-content: center;
 	justify-content: space-evenly;
-}
-
-.navBck
-{
-	background-image: url(../images/navBck.png);
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 .topNav ul li
@@ -179,11 +180,14 @@ html
 	text-decoration: none;
 	padding-top: 10px;
 }
+
 #textBox
 {
 	display: flex;
 	flex-direction: column;
 }
+
+/* Start of About Page*/
 
 #iconContainer
 {
@@ -197,16 +201,22 @@ html
 	padding-bottom: 115px;
 }
 
+
+/* For Smaller Screen Size*/
 @media only screen and (max-width: 1680px) {
 #iconContainer {
 	margin-left: 175px;
 	min-width: 65%;
 	max-width: 65%;
 	}
-#logo {
-	margin-left: ;
+	#histImages
+	{
+		margin-left: -100px;
+	}
 }
-}
+
+/* Start of Icons*/
+
 .iconSize
 {
 	height: 130px;
@@ -216,7 +226,6 @@ html
 	padding-left: 90px;
 	padding-bottom: 70px;
 	text-align: center;
-
 }
 
 #partner
@@ -244,6 +253,9 @@ html
 	padding-top: 20px;
 
 }
+
+/*Start of Bottom Half of About*/
+
 #histDivider
 {
 	height: 200px;

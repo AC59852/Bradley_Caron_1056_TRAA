@@ -354,7 +354,7 @@ html
 	height: 18px;
 	position: relative;
 	top: 200px;
-	left: 28%;
+	left: 29%;
 	animation-delay: 0.3s;
 }
 
@@ -374,7 +374,7 @@ html
 	overflow: hidden; 
 	animation-delay: 0.3s;
 	top: 200px;
-	left: 470px;
+	left: 570px;
 }
 
 #contact::after {
@@ -382,8 +382,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 1540px;
-    bottom: 800px; 
+    left: 1744px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -398,8 +398,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 1340px;
-    bottom: 800px; 
+    left: 1519px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -414,8 +414,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 975px;
-    bottom: 800px; 
+    left: 1107px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -430,8 +430,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 1175px;
-    bottom: 800px; 
+    left: 1332px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -446,8 +446,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 505px;
-    bottom: 800px; 
+    left: 587px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -462,8 +462,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 290px;
-    bottom: 800px; 
+    left: 347px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -479,8 +479,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 157px;
-    bottom: 800px; 
+    left: 197px;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }
@@ -495,8 +495,8 @@ html
     content: "";
     width: 0;
     height: 3px;
-    left: 40px;
-    bottom: 800px; 
+    left: 57px;;
+    bottom: 850px; 
     transition: width 0.25s ease 0s;
     position: absolute;
 }

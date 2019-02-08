@@ -12,10 +12,10 @@
 		<nav class="blackBar topNav">
 			<h2 class="hidden">Main Navigation</h2>
 			<ul>
-				<li><a href="#">HOME</a></li>
+				<li><a href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="#">OUR PROJECTS</a></li>
-				<li><a href="#">FUNDRAISERS</a></li>
+				<li><a href="projects.html">OUR PROJECTS</a></li>
+				<li><a href="fundraising.html">FUNDRAISERS</a></li>
 				<li><object id="logo" type="image/svg+xml" data="images/logo.svg"></object></li>
 				<li><a href="#">PAST EVENTS</a></li>
 				<li><a href="#">PARTNERS</a></li>
@@ -26,35 +26,39 @@
 	</header>
 <section id="merchandise">
 	<h2>Current Available Merchandise</h2>
-	<div id="merch1">
-		<img class="merchBox" src="#" alt="">
+	<div id="nonApparel">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch2">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch3">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch4">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch5">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch6">
-		<img class="merchBox" src="#" alt="">
 	</div>
-	<div id="merch7">
-		<img class="merchBox" src="#" alt="">
+	<div id="apparel">
+		<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch8">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch9">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
 	</div>
-	<div id="merch10">
-		<img class="merchBox" src="#" alt="">
+	<div class="merchBox">
+		<img src="#" alt="">
+	</div>
+	<div class="merchBox">
+		<img src="#" alt="">
+	</div>
 	</div>
 </section>
 <aside id="histDivider">
@@ -62,33 +66,35 @@
 	<div id="whiteBarHist"></div>
 	<p>In the spring of 1986 the TRAA was formed by anglers concerned with the state of the fishery in the Thames River watershed, particularly the dwindling smallmouth bass population in the North Thames River.</p>
 </aside>
-<section>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium molestiae quae quod, deserunt. Vel praesentium accusantium, eligendi maxime rem, cupiditate iusto corrupti nisi quos laborum, cumque autem earum repellendus molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, corrupti, harum? Dicta veniam enim, minus provident aliquid perspiciatis quae sequi, fuga ut architecto ipsa dolor quos laborum eius mollitia natus!</p>
+<section id="paymentSect">
+	<p id="paymentFirstP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium molestiae quae quod, deserunt. Vel praesentium accusantium, eligendi maxime rem, cupiditate iusto corrupti nisi quos laborum, cumque autem earum repellendus molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, corrupti, harum? Dicta veniam enim, minus provident aliquid perspiciatis quae sequi, fuga ut architecto ipsa dolor quos laborum eius mollitia natus!</p>
 	<div id="greenBox">
 		<div id="paymentInputArea"></div>
 			<h2 class="hidden">Payment/Membership Subscription Box</h2>
 	            <form id="paymentForm" action="form.php" method="post">
                     <label for="name">Name</label>
-                    <input type="text" required id="name" name="fullName" size="40" placeholder="Required">
+                    <input id="paymentName" type="text" required id="name" name="fullName" size="40" placeholder="Required">
                     
                     <label for="email">Email</label>
-                    <input type="email" required id="email" size="40" placeholder="Required">
+                    <input id="paymentEmail" type="email" required id="email" size="40" placeholder="Required">
                     
                     
                     <label for="donation">Payment Amount</label>
-                    <input type="text" required id="phone" size="40" placeholder="Enter Any Amount ($25 Minimum for Membership)">
+                    <input id="paymentDonation" type="text" required id="phone" size="40" placeholder="Enter Any Amount ($25 Minimum for Membership)">
                     
-                    <label id="paymentMsg" for="Messages">Message</label>
-                    <textarea name="message" id="paymentMessage" required cols="50" rows="8" placeholder="Optional"></textarea>
+                    <label for="Messages">Message</label>
+                    <textarea id="paymentMsg" name="message" required cols="50" rows="8" placeholder="Optional"></textarea>
                    
                     <a href="http://www.paypal.com"><input id="paymentBtn" type="button" value="Submit"></a>
             </form>
             </div>
             <div id="paymentWhiteBar"></div>
+            <div id="paymentLeftText">
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vel ratione, quisquam, ut nesciunt autem quidem dolore excepturi fugit atque saepe perferendis incidunt nam voluptate molestiae veritatis maiores omnis assumenda.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quae qui eum provident saepe vero explicabo magnam natus odit modi animi optio, harum, eveniet necessitatibus dolorem aliquid consequuntur deserunt id!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt et libero perferendis, cum aspernatur in. Tempore esse nobis nesciunt magnam, obcaecati, officia quam nihil cum, in vel culpa aperiam iste.</p>
+            </div>
 </section>
 </body>
 </html>

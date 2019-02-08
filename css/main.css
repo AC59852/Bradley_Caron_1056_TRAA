@@ -414,6 +414,131 @@ html
 }
 
 
+/* Start of Fundraising*/
+#merchandise
+{
+	margin: 200px auto;
+	width: 980px;
+}
+
+#merchandise h2
+{
+	color: #333333;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+#nonApparel
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 125px;
+}
+
+.merchBox
+{
+	background-color: #333333;
+	height: 150px;
+	width: 150px;
+}
+
+#apparel
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+}
+
+#paymentSect
+{
+	color: #333333;
+	font-family: 'open_sansregular';
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#greenBox
+{
+	background-color: green;
+	height: 600px;
+	width: 960px;
+	margin-bottom: 100px;
+}
+
+#paymentFirstP
+{
+	font-size: 16px;
+	width: 800px;
+	margin: 0 auto 100px auto;
+}
+
+#paymentForm
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
+#paymentForm label
+{
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#paymentForm input 
+{
+	padding-bottom: 15px;
+}
+
+#paymentBtn
+{
+	margin-top: 30px;
+	width: 150px;
+	background-color: gray;
+	border-color: black;
+	color: white;
+	font-size: 18px;
+	padding-top: 9px;
+	height: 40px;
+}
+
+#paymentWhiteBar
+{
+	height: 520px;
+	width: 2px;
+	background-color: white;
+	margin: -660px auto;
+}
+
+#paymentLeftText h3
+{
+	color: white;
+	margin-left: 500px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+#paymentLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 150px;
+	color: white;
+	margin: 20px 550px;
+}
+
 /* Start of Animation*/
 @keyframes line
 {

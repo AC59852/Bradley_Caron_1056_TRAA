@@ -5,8 +5,7 @@ html
 
 @font-face {
     font-family: 'open_sansregular';
-   	src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff');
-         
+   	src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff');     
     font-weight: normal;
     font-style: normal;
 
@@ -15,8 +14,7 @@ html
 
 @font-face {
     font-family: 'open_sanslight';
-    src: url('../fonts/OpenSans-Light-webfont.woff') format('woff');
-     
+    src: url('../fonts/OpenSans-Light-webfont.woff') format('woff'); 
     font-weight: normal;
     font-style: normal;
 
@@ -26,12 +24,7 @@ html
 
 @font-face {
     font-family: 'open_sanslight_italic';
-    src: url('OpenSans-LightItalic-webfont.eot');
-    src: url('OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-LightItalic-webfont.woff2') format('woff2'),
-         url('OpenSans-LightItalic-webfont.woff') format('woff'),
-         url('OpenSans-LightItalic-webfont.ttf') format('truetype'),
-         url('OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
+    src: url('OpenSans-LightItalic-webfont.woff') format('woff'),
     font-weight: normal;
     font-style: normal;
 
@@ -41,8 +34,7 @@ html
 
 @font-face {
     font-family: 'glacial_indifferencebold';
-    src: url('../fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
-         url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
+    src: url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -51,8 +43,7 @@ html
 
 @font-face {
     font-family: 'glacial_indifferenceitalic';
-    src: url('glacialindifference-italic-webfont.woff2') format('woff2'),
-         url('glacialindifference-italic-webfont.woff') format('woff');
+    src: url('glacialindifference-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -60,8 +51,7 @@ html
 
 @font-face {
     font-family: 'glacial_indifferenceregular';
-    src: url('fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
-         url('../fonts/glacialindifference-regular-webfont.woff') format('woff');
+    src: url('../fonts/glacialindifference-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -203,19 +193,6 @@ html
 }
 
 
-/* For Smaller Screen Size*/
-@media only screen and (max-width: 1680px) {
-#iconContainer {
-	margin-left: 175px;
-	min-width: 65%;
-	max-width: 65%;
-	}
-	#histImages
-	{
-		margin-left: -100px;
-	}
-}
-
 /* Start of Icons*/
 
 .iconSize
@@ -314,7 +291,7 @@ html
 #para2
 {
 	padding-top: 80px;
-	padding-bottom: 660px;
+	padding-bottom: 50px;
 }
 
 #histExt img
@@ -375,4 +352,21 @@ html
 	animation-delay: 0.3s;
 	top: 200px;
 	left: 570px;
+}
+
+/* For Smaller Screen Size*/
+@media only screen and (max-width: 1680px) {
+#iconContainer {
+	margin-left: 175px;
+	min-width: 65%;
+	max-width: 65%;
+	}
+	#histImages
+	{
+		margin-left: -100px;
+	}
+	#title
+	{
+		margin-left: -100px;
+	}
 }

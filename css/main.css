@@ -71,6 +71,7 @@ html
 	background-image: url(../images/bck2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 
 }
 
@@ -108,6 +109,7 @@ html
 {
 	padding: 25px 15px 0 20px;
 	letter-spacing: 2px;
+
 }
 
 .topNav ul li a
@@ -116,6 +118,7 @@ html
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
+
 }
 
 #logo
@@ -125,7 +128,7 @@ html
 	height: 200px; 
 }
 
-#title
+.title
 {
 	font-family: 'glacial_indifferenceregular';
 	display: flex;
@@ -148,7 +151,7 @@ html
 {
 	font-family: 'open_sanslight';
 	height: 100px;
-	margin: -200px auto 124px;
+	margin: 400px auto 124px;
 	text-align: center;
 	font-size: 38px;
 	display: flex;
@@ -335,5 +338,169 @@ html
 	color: white;
 }
 
+@keyframes line
+{
+	0% { width: 0; }
+	20% { width: 800px; }
+	40% { width: 800px; }
+	60% { width: 800px; }
+}
+
+.line
+{
+	animation: line 2s ease-in;
+	background-color: white;
+	width: 0;
+	height: 18px;
+	position: relative;
+	top: 200px;
+	left: 28%;
+	animation-delay: 0.3s;
+}
+
+@keyframes slidein {
+    0% { height: 100px; visibility: hidden;}
+    20% {   visibility: visible;}
+    35% {   visibility: visible;}
+    100% { height: 500px; visibility: visible;}
+}
+
+#title
+{
+	animation: slidein 2s ease-in;
+  	animation-fill-mode: forwards;
+  	visibility: hidden;
+ 	position: absolute;
+	overflow: hidden; 
+	animation-delay: 0.3s;
+	top: 200px;
+	left: 470px;
+}
+
+#contact::after {
+    background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 1540px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#contact:hover::after {
+  width: 6.5%;
+}
+
+#news::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 1340px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#news:hover::after {
+  width: 9%;
+}
+
+#pE::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 975px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#pE:hover::after {
+  width: 9%;
+}
+
+#part::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 1175px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#part:hover::after {
+  width: 7%;
+}
+
+#funds::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 505px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#funds:hover::after {
+  width: 9.8%;
+}
+
+#oP::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 290px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#oP:hover::after {
+  width: 10.2%;
+}
 
 
+#about::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 157px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#about:hover::after {
+  width: 5%;
+}
+
+#home::after
+{
+	background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 40px;
+    bottom: 800px; 
+    transition: width 0.25s ease 0s;
+    position: absolute;
+}
+
+#home:hover::after {
+  width: 4%;
+}

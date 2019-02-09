@@ -97,7 +97,7 @@ html
 
 .topNav ul li
 {
-
+	margin-left: 20px;
 	padding: 25px 15px 0 20px;
 	letter-spacing: 2px;
 
@@ -116,7 +116,7 @@ html
 #logo
 {
 	margin-top: -15px;
-	height: 200px; 
+	height: 200px;
 }
 
 /* End of DO NOT CHANGE SECTION*/

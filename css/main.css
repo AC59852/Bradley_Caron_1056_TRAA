@@ -86,9 +86,9 @@ html
 	background-repeat: no-repeat;
 }
 
+
 .topNav ul
 {
-	
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -97,6 +97,7 @@ html
 
 .topNav ul li
 {
+
 	padding: 25px 15px 0 20px;
 	letter-spacing: 2px;
 
@@ -104,6 +105,7 @@ html
 
 .topNav ul li a
 {
+
 	font-family: 'open_sansregular';
 	font-size: 20px;
 	color: white;
@@ -113,7 +115,6 @@ html
 
 #logo
 {
-
 	margin-top: -15px;
 	height: 200px; 
 }
@@ -537,6 +538,53 @@ html
 	height: 150px;
 	color: white;
 	margin: 20px 550px;
+}
+
+/* Start of Past Events Page*/
+#events
+{
+	width: 1200px;
+	margin: 200px auto 90px auto;
+	text-align: center;
+}
+
+#events h2
+{
+	color: black;
+	font-family: 'glacial_indifferencebold';
+	font-size: 32px;
+}
+#events h3
+{
+	color: black;
+	font-family: 'glacial_indifferencebold';
+	font-size: 32px;
+	padding-bottom: 50px;
+}
+
+#eventImgs
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.eventBox
+{
+	margin-bottom: 70px;
+	margin-left: 20px;
+	height: 190px;
+	width: 190px;
+	background-color: #333333;
+}
+
+.eventBox p
+{
+	color: black;
+	margin-top: 190px;
+	font-family: 'open_sanslight';
+	font-size: 18px;
 }
 
 /* Start of Animation*/

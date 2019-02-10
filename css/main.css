@@ -521,7 +521,7 @@ html
 
 #greenBox
 {
-	background-color: green;
+	background-color: #223822;
 	height: 600px;
 	width: 960px;
 	margin-bottom: 100px;
@@ -639,6 +639,126 @@ html
 	color: black;
 	margin-top: 4px;
 	font-size: 16px;
+}
+
+/* Start of Partners Page*/
+#partners
+{
+	width: 960px;
+	margin: 200px auto 30px auto;
+	color: #333333;
+	text-align: center;
+}
+
+#partners h3
+{
+	margin-bottom: 40px;
+}
+
+.partnerBox
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.partnerBox p
+{
+	padding-left: 40px;
+}
+
+.partnerImgs
+{
+	background-color: #333333;
+	width: 200px;
+	height: 125px;
+}
+
+/* Start of Newsletters*/
+#newsletters
+{
+	width: 980px;
+	margin: 200px auto 60px auto;
+	text-align: center;
+}
+
+#newsImgs
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#newsletters h2
+{
+	color: black;
+	font-family: 'glacial_indifferencebold';
+	font-size: 32px;
+	padding-bottom: 70px;
+}
+
+.newsBox p
+{
+	color: #333333;
+	margin-top: 20px;
+}
+.newsBox
+{
+	margin-bottom: 100px;
+	margin-left: 20px;
+	height: 230px;
+	width: 230px;
+	background-color: #333333;
+}
+
+/* Start of Contact*/
+#contactSect
+{
+	color: #333333;
+	font-family: 'open_sansregular';
+	width: 960px;
+	margin: 250px auto 60px;
+	text-align: center;
+}
+
+#contactSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+#contactLeftText h4
+{
+	color: white;
+	margin-left: 500px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+#contactLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin: 10px 550px;
+}
+
+#map
+{
+	margin-left: 500px;
+}
+
+#mailInfo
+{
+	color: #333333;
+	font-family: 'open_sansregular';
+	margin: 100px auto 20px auto;
+	font-weight: bold;
 }
 
 /* Start of Animation*/

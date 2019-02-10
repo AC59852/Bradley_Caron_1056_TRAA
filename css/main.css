@@ -631,15 +631,14 @@ html
 	margin-left: 20px;
 	height: 190px;
 	width: 190px;
-	background-color: #333333;
 }
 
 .eventBox p
 {
+	font-family: 'open_sansregular';
 	color: black;
-	margin-top: 190px;
-	font-family: 'open_sanslight';
-	font-size: 18px;
+	margin-top: 4px;
+	font-size: 16px;
 }
 
 /* Start of Animation*/

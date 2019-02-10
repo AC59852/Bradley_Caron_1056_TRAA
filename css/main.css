@@ -24,7 +24,7 @@ html
 
 @font-face {
     font-family: 'open_sanslight_italic';
-    src: url('OpenSans-LightItalic-webfont.woff') format('woff'),
+    src: url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
     font-weight: normal;
     font-style: normal;
 
@@ -42,7 +42,7 @@ html
 
 @font-face {
     font-family: 'glacial_indifferenceitalic';
-    src: url('glacialindifference-italic-webfont.woff') format('woff');
+    src: url('../fonts/glacialindifference-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -386,23 +386,47 @@ html
 	margin-top: 10px;
 }
 
+#whiteBarProj
+{
+	height: 4px;
+	margin: 30px auto;
+	background-color: white;
+	width: 380px;
+}
+
+#projItalics 
+{
+	font-family: 'glacial_indifferenceitalic';
+	margin-bottom: 10px;
+	color: #333333;
+	width: 920px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 10px;
+	text-align: center;
+}
+
 .projImage a
 {
 	text-decoration: none;
 }
+
+
 #bottomProjects
 {
 	width: 1100px;
 	margin: 0 auto;
 }
 
-#bottomProjects p
+#projText
 {
 	font-family: 'open_sansregular';
 	color: #333333;
-	padding-top: 90px;
-	padding-bottom: 90px;
-	font-size: 19px;
+	padding-top: 60px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 60px;
 }
 
 #projBigImage
@@ -419,6 +443,19 @@ html
 	margin-bottom: 50px;
 	justify-content: space-evenly;
 	height: 60px;
+	margin-bottom: 110px;
+}
+
+
+#projLinks h4
+{
+	color: #333333;
+	font-family: 'glacial_indifferencebold';
+	font-size: 21px;
+	text-align: center;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	padding-top: 80px;
 }
 
 #projLinks a
@@ -427,6 +464,9 @@ html
 	font-weight: bold;
 	text-decoration: none;
 	color: #333333;
+	font-size: 20px;
+	width: 750px;
+	margin-bottom: 40px;
 }
 
 

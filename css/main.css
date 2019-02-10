@@ -497,9 +497,24 @@ html
 
 .merchBox
 {
-	background-color: #333333;
+	background-color: #fffeed;
 	height: 150px;
 	width: 150px;
+	border: solid 3px #333333;
+}
+
+.merchBox img
+{
+	margin: 0 14px;
+}
+
+.merchBox p
+{
+	font-family: 'open_sansregular';
+	color: #333333;
+	text-align: center;
+	margin-top: 30px;
+
 }
 
 #apparel
@@ -508,6 +523,14 @@ html
 	flex-direction: row;
 	justify-content: space-evenly;
 
+}
+
+#whiteBarFund
+{
+	height: 4px;
+	margin: 30px auto;
+	background-color: white;
+	width: 300px;
 }
 
 #paymentSect
@@ -527,10 +550,25 @@ html
 	margin-bottom: 100px;
 }
 
+#fundsItalic
+{
+	font-family: 'glacial_indifferenceitalic';
+	font-weight: bold;
+
+}
+
+
+#fundBold
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 24px;
+
+}
+
 #paymentFirstP
 {
-	font-size: 16px;
-	width: 800px;
+	font-size: 20px;
+	width: 600px;
 	margin: 0 auto 100px auto;
 }
 
@@ -578,21 +616,30 @@ html
 
 #paymentLeftText h3
 {
+	font-family: 'glacial_indifferencebold';
 	color: white;
-	margin-left: 500px;
+	margin-left: 490px;
 	margin-top: 150px;
 	margin-bottom: 50px;
-	font-weight: bold;
+	font-size: 22px;
 }
 
 #paymentLeftText p
 {
 	display: flex;
 	flex-direction: column;
+	font-size: 20px;
 	width: 350px;
-	height: 150px;
 	color: white;
 	margin: 20px 550px;
+	padding-bottom: 50px;
+}
+
+#leftFinal
+{
+	margin-top: 30px !important;
+	width: 320px !important;
+	margin-left: 570px !important;
 }
 
 /* Start of Past Events Page*/
@@ -639,126 +686,6 @@ html
 	color: black;
 	margin-top: 4px;
 	font-size: 16px;
-}
-
-/* Start of Partners Page*/
-#partners
-{
-	width: 960px;
-	margin: 200px auto 30px auto;
-	color: #333333;
-	text-align: center;
-}
-
-#partners h3
-{
-	margin-bottom: 40px;
-}
-
-.partnerBox
-{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding-bottom: 30px;
-}
-
-.partnerBox p
-{
-	padding-left: 40px;
-}
-
-.partnerImgs
-{
-	background-color: #333333;
-	width: 200px;
-	height: 125px;
-}
-
-/* Start of Newsletters*/
-#newsletters
-{
-	width: 980px;
-	margin: 200px auto 60px auto;
-	text-align: center;
-}
-
-#newsImgs
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-#newsletters h2
-{
-	color: black;
-	font-family: 'glacial_indifferencebold';
-	font-size: 32px;
-	padding-bottom: 70px;
-}
-
-.newsBox p
-{
-	color: #333333;
-	margin-top: 20px;
-}
-.newsBox
-{
-	margin-bottom: 100px;
-	margin-left: 20px;
-	height: 230px;
-	width: 230px;
-	background-color: #333333;
-}
-
-/* Start of Contact*/
-#contactSect
-{
-	color: #333333;
-	font-family: 'open_sansregular';
-	width: 960px;
-	margin: 250px auto 60px;
-	text-align: center;
-}
-
-#contactSect h3
-{
-	font-family: 'glacial_indifferencebold';
-	font-size: 36px;
-	margin-bottom: 100px;
-}
-
-#contactLeftText h4
-{
-	color: white;
-	margin-left: 500px;
-	margin-top: 150px;
-	margin-bottom: 50px;
-	font-weight: bold;
-}
-
-#contactLeftText p
-{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	color: white;
-	margin: 10px 550px;
-}
-
-#map
-{
-	margin-left: 500px;
-}
-
-#mailInfo
-{
-	color: #333333;
-	font-family: 'open_sansregular';
-	margin: 100px auto 20px auto;
-	font-weight: bold;
 }
 
 /* Start of Animation*/

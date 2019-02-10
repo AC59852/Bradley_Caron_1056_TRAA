@@ -687,6 +687,39 @@ html
 	margin-top: 4px;
 	font-size: 16px;
 }
+/* Start of Partners Page*/
+#partners
+{
+	width: 960px;
+	margin: 200px auto 30px auto;
+	color: #333333;
+	text-align: center;
+}
+
+#partners h3
+{
+	margin-bottom: 40px;
+}
+
+.partnerBox
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.partnerBox p
+{
+	padding-left: 40px;
+}
+
+.partnerImgs
+{
+	background-color: #333333;
+	width: 200px;
+	height: 125px;
+}
 
 /* Start of Animation*/
 @keyframes line

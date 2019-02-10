@@ -675,6 +675,44 @@ html
 	height: 125px;
 }
 
+/* Start of Newsletters*/
+#newsletters
+{
+	width: 980px;
+	margin: 200px auto 60px auto;
+	text-align: center;
+}
+
+#newsImgs
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#newsletters h2
+{
+	color: black;
+	font-family: 'glacial_indifferencebold';
+	font-size: 32px;
+	padding-bottom: 70px;
+}
+
+.newsBox p
+{
+	color: #333333;
+	margin-top: 20px;
+}
+.newsBox
+{
+	margin-bottom: 100px;
+	margin-left: 20px;
+	height: 230px;
+	width: 230px;
+	background-color: #333333;
+}
+
 /* Start of Animation*/
 @keyframes line
 {

@@ -577,6 +577,7 @@ html
 	flex-direction: column;
 	width: 350px;
 	color: white;
+	margin-top: -650px;
 	margin-left: 50px;
 	padding-top: 50px;
 }
@@ -621,6 +622,7 @@ html
 	margin-top: 150px;
 	margin-bottom: 50px;
 	font-size: 22px;
+	padding-top: 50px;
 }
 
 #paymentLeftText p
@@ -630,8 +632,9 @@ html
 	font-size: 20px;
 	width: 350px;
 	color: white;
-	margin: 20px 550px;
+	margin: 20px;
 	padding-bottom: 50px;
+	margin-left: 550px;
 }
 
 #leftFinal
@@ -685,6 +688,45 @@ html
 	color: black;
 	margin-top: 4px;
 	font-size: 16px;
+}
+
+.eventBox a
+{
+	text-decoration: none;
+}
+
+.lightbox 
+{
+  	position: fixed;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background: rgba(0, 0, 0, 0.5);
+  	transition: opacity 300ms;
+  	visibility: hidden;
+ 	opacity: 0;
+}
+
+.lightbox img {
+	margin: 130px auto;
+}
+
+.lightbox p
+{
+	width: 900px;
+	height: 150px;
+	margin: -100px auto;
+	padding-top: 80px;
+	font-family: 'open_sansregular';
+	font-size: 20px;
+	color: #333333;
+	background-color: white;
+}
+
+.lightbox:target {
+  	visibility: visible;
+	opacity: 1;
 }
 /* Start of Partners Page*/
 #partners
@@ -805,6 +847,7 @@ html
 	margin-top: 150px;
 	margin-bottom: 50px;
 	font-weight: bold;
+	padding-top: 50px;
 }
 
 #contactLeftText p
@@ -816,9 +859,40 @@ html
 	margin: 10px 550px;
 }
 
+#contactForm
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin-top: -550px;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
+#contactForm label
+{
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#contactForm input 
+{
+	padding-bottom: 15px;
+}
+
 #map
 {
 	margin-left: 500px;
+}
+
+#contactWhiteBar
+{
+	height: 520px;
+	width: 2px;
+	background-color: white;
+	margin: -800px auto;
 }
 
 #mailInfo

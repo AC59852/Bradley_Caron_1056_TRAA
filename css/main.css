@@ -521,7 +521,7 @@ html
 
 #greenBox
 {
-	background-color: green;
+	background-color: #223822;
 	height: 600px;
 	width: 960px;
 	margin-bottom: 100px;
@@ -711,6 +711,54 @@ html
 	height: 230px;
 	width: 230px;
 	background-color: #333333;
+}
+
+/* Start of Contact*/
+#contactSect
+{
+	color: #333333;
+	font-family: 'open_sansregular';
+	width: 960px;
+	margin: 250px auto 60px;
+	text-align: center;
+}
+
+#contactSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+#contactLeftText h4
+{
+	color: white;
+	margin-left: 500px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+#contactLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin: 10px 550px;
+}
+
+#map
+{
+	margin-left: 500px;
+}
+
+#mailInfo
+{
+	color: #333333;
+	font-family: 'open_sansregular';
+	margin: 100px auto 20px auto;
+	font-weight: bold;
 }
 
 /* Start of Animation*/

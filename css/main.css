@@ -37,7 +37,6 @@ html
     src: url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -46,7 +45,6 @@ html
     src: url('glacialindifference-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -62,7 +60,6 @@ html
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-
 }
 
 /* DO NOT CHANGE SECTION*/
@@ -119,6 +116,54 @@ html
 	height: 200px;
 }
 
+/* For Smaller Screen Size*/
+@media only screen and (max-width: 1680px) {
+#iconContainer {
+	margin-left: 175px !important;
+	}
+	#histImages
+	{
+		margin-left: -100px;
+	}
+	#title
+	{
+		margin-left: -100px;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.navBck { width: 960px; }
+	
+	#logo { height: 150px; }
+	
+	.topNav ul li a {
+		font-size: 13.4px;
+		margin-left: -10px;
+}
+	.blackBar
+{
+		background-color: rgba(51, 51, 51, 0.5);
+		margin: 60px 0px 0;
+		height: 75px;
+		width: 1260px;
+}
+	.iconSize
+{
+		text-align: center;
+		margin-bottom: 120px !important;
+		margin-left: -40px !important;
+}
+
+	.iconSize p { font-size: 14px; }
+
+	#iconContainer { margin-left: 325px !important; }
+
+	#histDivider { width: 1300px; }
+
+	.histPara { margin: 0 380px !important; }
+}
+
+
 /* End of DO NOT CHANGE SECTION*/
 
 /* Start of Homepage*/
@@ -135,13 +180,11 @@ html
 	flex-direction: column;
 	text-align: center;
 	margin-top: 50px;
-
 }
 
 #textBox span
-{
-	padding-top: 20px;
-}
+{ padding-top: 20px; }
+
 #slogan
 {
 	font-family: 'open_sanslight';
@@ -168,7 +211,6 @@ html
 	display: flex; 
 }
 
-
 #aboutBtn a
 {
 	font-family: 'open_sansregular';
@@ -189,17 +231,14 @@ html
 #iconContainer
 {
 	display: flex;
-	flex-direction: row;
-	margin-top: 200px; 	
+	flex-direction: row;	
 	flex-wrap: wrap;
-	width: 1100px;
-	margin: 210px auto;
-	margin-left: 300px;
+	max-width: 65%;
+	margin: 200px auto;
 }
 
 
 /* Start of Icons*/
-
 .iconSize
 {
 	height: 130px;
@@ -225,20 +264,16 @@ html
 }
 
 #sport
-{
-	line-height: 22px;
-}
+{ line-height: 22px; }
 
 .iconSize p
 {
 	font-family: 'open_sansregular';
 	color: black;
 	padding-top: 20px;
-
 }
 
 /*Start of Bottom Half of About*/
-
 #histDivider
 {
 	height: 200px;
@@ -321,7 +356,6 @@ html
 }
 
 /* Start of Projects*/
-
 #imageContainer
 {
 	width: 1200px;
@@ -419,7 +453,7 @@ html
 #merchandise
 {
 	margin: 200px auto;
-	width: 980px;
+	width: 960px;
 }
 
 #merchandise h2
@@ -625,21 +659,4 @@ html
 	animation-delay: 0.3s;
 	top: 200px;
 	left: 570px;
-}
-
-/* For Smaller Screen Size*/
-@media only screen and (max-width: 1680px) {
-#iconContainer {
-	margin-left: 175px;
-	min-width: 65%;
-	max-width: 65%;
-	}
-	#histImages
-	{
-		margin-left: -100px;
-	}
-	#title
-	{
-		margin-left: -100px;
-	}
 }

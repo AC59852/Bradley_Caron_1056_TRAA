@@ -52,5 +52,7 @@ Every piece of immediately viewable content has been structured to give as much 
 
 **Logo Seems off Even Though it Isn't** - Currently, the logo is centered in the middle of the screen, but based on all other content on the site, it does not appear so. Suspected this is due to the size of it within the li element of the pages, but will have to look at this some more.
 
+**Carousel Not Working With onclick JS** - Having some problems with using onclick in JavaScript. So we are currently using the W3Schools version of a working carousel until we can properly get the onclick working in JS.
+
 ## Additional Notes (For Marco)
 We had to use this repo as our submission for both the Midterm, and homework assignment 3. Our Photoshop files for our two original pages are in there as the final version, while a pdf variant of the boxed out version is in the assets as well.

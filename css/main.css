@@ -695,10 +695,17 @@ html
 	color: #333333;
 	text-align: center;
 }
+#partners p
+{
+	font-family: 'open_sansregular';
+	margin-top: 20px;
+}
 
 #partners h3
 {
 	margin-bottom: 40px;
+	font-family: 'glacial_indifferencebold';
+	font-size: 24px;
 }
 
 .partnerBox
@@ -716,9 +723,18 @@ html
 
 .partnerImgs
 {
-	background-color: #333333;
-	width: 200px;
-	height: 125px;
+	width: 240px;
+	height: 80px;
+}
+#anglingText
+{
+	margin-left: 45px;
+}
+
+#anglingImg
+{
+	width: 240px;
+	height: 180px;
 }
 
 /* Start of Animation*/

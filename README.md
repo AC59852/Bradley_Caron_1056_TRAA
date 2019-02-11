@@ -8,7 +8,7 @@ Take a look around our newly updated site by our two fantastic web developers!
 
 Just clone and go! Nothing special, just clone anywhere on your PC and check out the pages!
 
-## Philossphy
+## Philosphy
 
 As we reinvented the site, we stuck with a few themes throughout all of the pages.
 <br>

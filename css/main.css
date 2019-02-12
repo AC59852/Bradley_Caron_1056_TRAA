@@ -749,6 +749,42 @@ html
   	visibility: visible;
 	opacity: 1;
 }
+
+.aboutlightbox 
+{
+  	position: fixed;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background: rgba(0, 0, 0, 0.5);
+  	transition: opacity 300ms;
+  	visibility: hidden;
+ 	opacity: 0;
+}
+
+.aboutlightbox img {
+	margin: 130px 380px;
+}
+
+.aboutlightbox p
+{
+	width: 900px;
+	height: 150px;
+	text-align: center;
+	margin: -100px auto;
+	padding-top: 50px;
+	font-family: 'open_sansregular';
+	font-size: 20px;
+	color: #333333;
+	line-height: 30px;
+	background-color: white;
+}
+
+.aboutlightbox:target {
+  	visibility: visible;
+	opacity: 1;
+}
 /* Start of Partners Page*/
 #partners
 {
@@ -1041,4 +1077,31 @@ html
 	animation-delay: 0.3s;
 	top: 200px;
 	left: 570px;
+}
+
+#aboutLightbox
+{
+	text-align: center;
+	background-color: gray;
+	border: 3px solid black;
+	width: 220px;
+	margin: -20px auto 20px;
+
+}
+
+#aboutLightbox a
+{
+	color: #333333;
+	font-family: 'glacial_indifferenceregular';
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+.aboutlightbox img
+{
+	width: 1600px;
+	height: 400px;
+	margin-left: 50px;
 }

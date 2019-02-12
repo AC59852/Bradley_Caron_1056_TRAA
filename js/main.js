@@ -37,6 +37,8 @@ function dot4Show() {
 
 console.log('Hey profs, our JS is linked up!');
 
-/* We used the W3C School method of linking our carousel. We used the concepts of greater and less than, as well as the onclick
-as we could not get it working in the JS, we just linked it in html. All images and containers are our own, and
-only used the template code from W3C as the slide show structure*/
+/* We used originally used the W3C Schools method of creating a carousel, by using greater than and less than
+to add or subtract the next image, and used an onclick inline html to move the pictures along.
+In the end, we used Austin's SVG code for click event listeners and gave them to each dot,
+Applying a class for display block to the wanted photo, and hiding all others. It's repetetive,
+but simple.*/

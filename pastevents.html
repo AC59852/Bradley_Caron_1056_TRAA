@@ -2,116 +2,155 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/pastevents.css">
 	<title>TRAA Past Events Page</title>
 </head>
 <body class="navBck">
 <h1 class="hidden">Thames River Anglers Association</h1>
 	<header id="mainHeader">
-		<nav class="blackBar topNav">
+		<nav class="blackBar">
 			<h2 class="hidden">Main Navigation</h2>
-			<ul>
+			<h2 id="eventsTitle">Past Events</h2>
+			<button id="button"></button>
+			<div id="burgerCon" class="topNav">
+			<ul id="burgerMenu">
+				<li><span>X</span></li>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="projects.html">OUR PROJECTS</a></li>
 				<li><a href="fundraising.html">FUNDRAISERS</a></li>
-				<li><object id="logo" type="image/svg+xml" data="images/logo.svg"></object></li>
 				<li><a href="pastevents.html">PAST EVENTS</a></li>
 				<li><a href="partners.html">PARTNERS</a></li>
 				<li><a href="newsletters.html">NEWSLETTER</a></li>
 				<li><a href="contact.html">CONTACT</a></li>
 			</ul>
+			</div>
 		</nav>
 	</header>
 	<section id="events">
-		<h2>Participate, Help Out, Have Fun</h2>
-		<h3>Events & Activities are what the TRAA's All About!</h3>
-		<div class="lightbox" id="pETemp"><a href="#_"><img src="images/forest.png" height="500" width="900" alt=""></a>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae reiciendis nisi doloremque ipsa necessitatibus praesentium labore deserunt! Praesentium aliquid eos in neque, recusandae incidunt, esse dolore voluptatum nesciunt! Excepturi?</p>
+		<h3>Participate, Help Out, Have Fun
+Events & Activities are what the TRAA's All About!</h3>
+<!-- Lightbox is left in for the scaffold because it is intended to be in the final draft -->
+		<div class="lightbox" id="pETemp"><a href="#_">
+			<img src="images/logo.svg" class="lightBoxImage" alt="">
+		</a>
+			<p class="lightBoxText"></p>
 		</div>
-		<div id="eventImgs">
+		<div id="eventImgs">	
+			<div class="eventWrapper 0">
+				<a href="#peTemp">
 			<div class="eventBox">
-			<a href="#pETemp"><img src="images/logo_placeholder.png" height="190" width="190" alt="logo placeholder">
-			<p>Annual TRAA Paddle & Fish</p></a>
+				</a>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/forest.png" height="190" width="190" alt="photo of a forest">
-			<p>Stream Habitat Work Party</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/roof_repair.png" height="190" width="190" alt="damaged roof">
-			<p>Hatchery Roof Repair</p></a>
+		<div class="eventWrapper 1">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/trout_release_1.png" height="190" width="190" alt="trout being released">
-			<p>Rainbow Trout Release</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Boat_show.png" height="190" width="190" alt="the London anual boat show logo">
-			<p>TRAA - Show Time!</p></a>
+		<div class="eventWrapper 2">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/trout_release_2.png" height="190" width="190" alt="trout being released">
-			<p>Rainbow Trout Release</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/brook_trout_release.png" height="190" width="190" alt="brook trout being released">
-			<p>Brook Trout Release</p></a>
+		<div class="eventWrapper 3">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Family_Day.png" height="190" width="190" alt="family fishing">
-			<p>Family Fishing Day - Fanshawe C.A.</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Brown_Trout_Release.png" height="190" width="190" alt="brown trout release">
-			<p>Brown Trout Release</p></a>
+		<div class="eventWrapper 4">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Clean_Up.png" height="190" width="190" alt="Garbage clean up">
-			<p>Thames River Cleanup</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/BBQ.png" height="190" width="190" alt="TRAA bbq">
-			<p>Angling Sports Barbeque</p></a>
+		<div class="eventWrapper 5">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/stairway.png" height="190" width="190" alt="New stairway for TRAA hatchery">
-			<p>TRAA Project Days - Trout Hatchery Interior and Access Stairway</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Paddle.png" height="190" width="190" alt="Boat paddling and Fishing event">
-			<p>3rd Annual TRAA Paddle & Fish</p></a>
+		<div class="eventWrapper 6">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/family_day_2.png" height="190" width="190" alt="the 2nd family fishing day">
-			<p>Family Fishing Day - Fanshawe C.A.</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Dam.png" height="190" width="190" alt="Damnation movie cover">
-			<p>TRAA Presented the Film "DamNation"</p></a>
+		<div class="eventWrapper 7">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/trout_release_1.png" height="190" width="190" alt="Man helping child release rainbow trout">
-			<p>Rainbow Trout Release</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/steelhead.png" height="190" width="190" alt="steelhead fish">
-			<p>Steelhead Tagging and Monitoring is done for this season</p></a>
+		<div class="eventWrapper 8">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/new_Hatchery.png" height="190" width="190" alt="new hatchery being filled">
-			<p>New & Improved TRAA Hatchery</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
-		<div class="eventBox">
-			<a href="#pETemp"><img src="images/Rainbow_trout_2.png" height="190" width="190" alt="images/Rainbow_trout_2.png">
-			<p>Rainbow Trout Release</p></a>
+		<div class="eventWrapper 9">
+			<div class="eventBox">
 		</div>
-		<div class="eventBox">
-			<a href="https://www.youtube.com/watch?v=LMBa13_FFU4&feature=youtu.be"><img src="images/video.png" height="190" width="190" alt="youtube video thumbnail">
-			<p>Stream Habitat Work Party</p></a>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 10">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 11">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 12">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 13">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 14">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 15">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 16">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 17">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 18">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
+		</div>
+		<div class="eventWrapper 19">
+			<div class="eventBox">
+		</div>
+		<p>Lorem Ipsum Dolar Sit Amet.</p>
 		</div>
 	</div>
 </section>
+<footer id="mainFooter">
+	<section id="footerCon">
+		<h2 class="hidden">Main Footer</h2>
+		<div id="footerLogo"></div>
+		<p>©2019 Copyright Thames River Anglers Association</p>
+	</section>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/events.js"></script>
 </body>
 </html>

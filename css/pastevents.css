@@ -103,6 +103,10 @@ body
     font-style: normal;
 }
 
+#homeBck {
+  background-color: gray;
+}
+
 #events
 {
   max-width: 1200px;
@@ -120,7 +124,8 @@ body
 }
 
 #button {
-  position: absolute;
+  position: fixed;
+  top: 20px;
   left: 10px;
   height: 20px;
 }
@@ -391,9 +396,10 @@ body
 /*Media query for changing the button placement*/
 @media screen and (min-width: 540px) {
   #button {
-  position: absolute;
+  position: fixed;
+  top: 20px;
   left: 10px;
-  top: 6px;
+  height: 20px;
 }
   #footerCon p {
     font-size: 22px !important;
@@ -403,9 +409,10 @@ body
 /*Media query for changing the button placement*/
 @media screen and (min-width: 660px) {
   #button {
-  position: absolute;
+  position: fixed;
+  top: 20px;
   left: 10px;
-  top: 12px;
+  height: 20px;
 }
 }
 

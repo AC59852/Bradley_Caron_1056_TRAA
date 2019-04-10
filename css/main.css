@@ -412,15 +412,15 @@ nav {
 	}
 .blackBar
 {
-	margin: 0 auto 0;
+	margin: 20px auto 0;
 	height: 75px;
+	background-color: rgba(40,40,40,0.4);
 }
 
-.navBck
-{
-	background-image: url(images/navBck.png);
-	background-size: contain;
+.navBck {
+	background-image: url(../images/navBck.png);
 	background-repeat: no-repeat;
+	background-size: cover 1;
 }
 
 .topNav ul
@@ -434,7 +434,7 @@ nav {
 .topNav ul li
 {
 	margin-left: -30px;
-	padding: 35px 15px 0 20px;
+	padding: 25px 15px 0 20px;
 	letter-spacing: 2px;
 }
 
@@ -499,7 +499,7 @@ nav {
 {
 	margin-top: -15px;
 	margin-bottom: 20px;
-	height: 162px;
+	height: 200px;
 }
 #button {
 	display: none;
@@ -517,18 +517,11 @@ nav {
 }
 }
 
-/* DO NOT CHANGE SECTION*/
 
 .hidden
 {
 	display: none;
 }
-
-/* End of DO NOT CHANGE SECTION*/
-
-/* Start of Homepage*/
-
-
 
 /* Start of Fundraising*/
 #merchandise

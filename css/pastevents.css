@@ -1,8 +1,4 @@
 /*Utility Class*/
-.hidden
-{
-	display: none;
-}
 
 /* General rules - scales images, videos to size of container */
 img, embed, object, video {
@@ -24,85 +20,6 @@ img {
   -ms-interpolation-mode: bicubic; 
 }
 
-/*Fonts*/
-@font-face {
-font-family: 'lustriaregular';
-src: url('../fonts/lustria-regular-webfont.eot');
-src: url('../fonts/lustria-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/lustria-regular-webfont.woff') format('woff'),
-url('../fonts/lustria-regular-webfont.ttf') format('truetype'),
-url('../fonts/lustria-regular-webfont.svg#lustriaregular') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'latoregular';
-src: url('../fonts/lato-regular-webfont.eot');
-src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/lato-regular-webfont.woff') format('woff'),
-url('../fonts/lato-regular-webfont.ttf') format('truetype'),
-url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-/*General Rules for Elements*/
-
-body
-{
-	font-family: 'latoregular', Helvetica, Arial, sans-serif;
-	background-color: #fff;
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-}
-
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff');     
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sanslight';
-    src: url('../fonts/OpenSans-Light-webfont.woff') format('woff'); 
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sanslight_italic';
-    src: url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'glacial_indifferencebold';
-    src: url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'glacial_indifferenceitalic';
-    src: url('../fonts/glacialindifference-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'glacial_indifferenceregular';
-    src: url('../fonts/glacialindifference-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 #homeBck {
   background-color: gray;
 }
@@ -112,15 +29,6 @@ body
   max-width: 1200px;
   margin: 30px auto 90px auto;
   text-align: center;
-}
-
-#mainHeader h2
-{
-  text-align: center;
-  font-family: 'glacial_indifferencebold';
-  color: black;
-  letter-spacing: 1px;
-  font-size: 9vw;
 }
 
 #button {
@@ -252,67 +160,6 @@ body
   opacity: 1;
 }
 
-#burgerCon {
-  margin-top: 20px;
-}
-
-#burgerCon {
- display: none;
-}
-
-#burgerCon.toggleOn {
-  display: block;
-}
-
-#burgerMenu.toggleOn span{
-  position: relative;
-  left: 93%;
-  top: 0.5%;
-  color: red;
-  font-size: 20px;
-  cursor: pointer;
-  width: 5%;
-}
-
-#burgerMenu.toggleOn {
-  background-color: grey;
-  width: 50%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-#burgerMenu.toggleOn li {
-  padding-bottom: 10px;
-  margin-top: 10px;
-  padding-left: 5px;
-  border-bottom: 3px solid white;
-  font-size: 19.5px;
-}
-
-#burgerMenu.toggleOn li a {
-  text-decoration: none;
-  color: white;
-}
-
-#burgerMenu li:first-of-type {
-  border-bottom: none;
-}
-
-.topNav {
-  display: flex;
-}
-
-.topNav h2 {
-  display: block !important;
-}
-
-#burgerCon.slideToggle {
-  display: block;
-}
-
 #mainFooter {
   background-color: grey;
 }
@@ -414,62 +261,4 @@ body
   left: 10px;
   height: 20px;
 }
-}
-
-/*Media Query for triggering the full size Nav, as well as image box size changing and font changes.*/
-@media screen and (min-width: 920px) {
-  #button {
-    display: none;
-  }
-  .blackBar {
-  background-color: grey;
-  margin: 0 auto 0;
-  height: 80px;
-}
-
-.topNav {
-  display: block !important;
-  background-color: grey;
-}
-
-.topNav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-
-.topNav ul li {
-  margin-left: 20px;
-  padding: 25px 0px 0 20px;
-  letter-spacing: 2px;
-}
-
-.topNav ul li a {
-  font-family: 'open_sansregular';
-  font-size: 1.18vw;
-  color: white;
-  text-decoration: none;
-  transition: all .5s ease;
-}
-
-.topNav ul li a:hover {
-  box-shadow:
-  1px 1px green,
-  2px 2px green,
-  3px 3px green;
-}
-
-#logo {
-  margin-top: -15px;
-  height: 200px;
-}
-
-#mainHeader h2 {
-  display: none;
-}
-
-span {
-  display: none;
-  }
 }

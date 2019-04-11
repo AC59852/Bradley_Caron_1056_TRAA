@@ -44,15 +44,3 @@ Every piece of immediately viewable content has been structured to give as much 
 **Austin Caron** - Created the animation, transition, HTML shell and JS for carousel
 <br>
 **Patrick Bradley** - Created the design, wireframes, CSS and chose all content for the site
-
-## Current Known Bugs/Removal/Additional Objects
-**Nav Transition** - We wanted to create a hover transition for the Nav where when hovering, an underline would appear and disappear upon mouse movements. Unfortunately the underline was in different places on our monitors when focus testing the Nav. Current thought for why this is happening is the black bar and logo affecting the placement of the underline.
-
-**Content Resizing on Different Screen Sizes** - Despite objects being fixed width between 960 and 1200px, some objects overlap or rearrange themselves based on smaller screen sizes. Our current fix is to @media screen the specific pieces for smaller screen sizes, but this is only a bandaid. Not sure what the cause could be.
-
-**Logo Seems off Even Though it Isn't** - Currently, the logo is centered in the middle of the screen, but based on all other content on the site, it does not appear so. Suspected this is due to the size of it within the li element of the pages, but will have to look at this some more.
-
-**Carousel Not Working With onclick JS** - Having some problems with using onclick in JavaScript. So we are currently using the W3Schools version of a working carousel until we can properly get the onclick working in JS.
-
-## Additional Notes (For Marco)
-We had to use this repo as our submission for both the Midterm, and homework assignment 3. Our Photoshop files for our two original pages are in there as the final version, while a pdf variant of the boxed out version is in the assets as well.

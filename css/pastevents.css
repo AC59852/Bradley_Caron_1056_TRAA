@@ -55,6 +55,12 @@ img {
   justify-content: space-evenly;
 }
 
+.eventWrapper img
+{
+  width:  100%;
+  height: 140px;
+}
+
 .eventWrapper
 {
   margin-bottom: 70px;
@@ -103,19 +109,35 @@ img {
 }
 
 .lightbox img {
-  margin: 0 auto;
-  height: 250px;
+
+  width: 80%;
+  height: 80%;
+  max-width: 350px;
+
+}
+
+.lightbox a {
+  display: flex;
+}
+
+#lightImageTest
+{
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .lightbox p
 {
-  width: 50%;
-  height: 150px;
+  width: 90%;
+  height: 170px;
+  text-align: left;
   margin: 0 auto;
-  padding-top: 80px;
+  padding: 5px 5px 0 5px;
   font-family: 'open_sansregular';
-  font-size: 20px;
+  font-size: 14px;
   color: #333333;
+  max-width: 830px;
   background-color: white;
 }
 
@@ -191,6 +213,16 @@ img {
     height: 170px;
   }
 
+.lightImageTest
+{
+  justify-content: center !important;
+}
+
+
+.eventWrapper img {
+  height: 170px;
+}
+
   .eventWrapper p {
     margin-top: 170px;
     font-size: 1em;
@@ -217,6 +249,14 @@ img {
   #events h3 {
     font-size: 33px;
   }
+
+  .lightbox img {
+
+  width: 85%;
+  height: 80%;
+  max-width: 450px;
+
+}
 }
 
 /*Media query for enlarging footer specs*/
@@ -262,3 +302,27 @@ img {
   height: 20px;
 }
 }
+
+@media screen and (min-width: 481px) {
+  .lightbox p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 606px) {
+  .lightbox p {
+    font-size: 19px;
+    }
+  }
+
+  @media screen and (min-width: 850px) {
+  .lightbox p {
+    font-size: 20px;
+    }
+  }
+
+  @media screen and (min-width: 935px) {
+  .lightbox p {
+    font-size: 22px;
+    }
+  }

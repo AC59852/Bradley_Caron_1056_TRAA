@@ -1,0 +1,238 @@
+
+#submitMsg
+{
+	width: 280px;
+}
+
+#contactSect
+{
+	color: white;
+	font-family: 'open_sansregular';
+	margin: 250px auto 60px;
+	text-align: center;
+}
+
+#contactSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+#contactLeftText h4
+{
+	color: white;
+	margin-left: 500px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#contactLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	color: white;
+	margin: 10px 550px;
+}
+
+#contactForm
+{
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	color: white;
+	padding-top: 50px;
+	margin: 0 auto !important;
+	
+}
+
+#greenBck 
+{
+	background-color: #223822;
+}
+
+#contactForm label
+{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+#contactForm input 
+{
+	padding-bottom: 15px;
+	width: 280px;
+
+}
+
+#contactForm
+{
+	
+}
+
+#mailInfo
+{
+	color: white;
+	font-family: 'open_sansregular';
+	margin: 20px auto;
+	font-weight: bold;
+
+}
+
+#mailInfo h5
+{	
+
+	font-size: 30px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#mailInfo p
+{
+	width: 250px;
+	text-align: left;
+	margin: 0 auto;
+	line-height: 22px;
+}
+
+#mapDiv 
+{
+	margin: 0 auto;
+}
+
+#map 
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#map h4
+{
+	font-size: 18px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	line-height: 24px;
+	width: 320px;
+	margin: 0 auto !important;
+}
+
+#location
+{
+	text-align: center !important;
+}
+
+#map p
+{
+	font-size: 18px;
+	padding-top: 30px;
+	width: 250px;
+	margin: 0 auto !important;
+	text-align: left;
+	justify-content: center;
+}
+
+#map iframe
+{	
+	margin: 0 auto !important;
+	width: 250px;
+	height: 250px;
+}
+
+#submitBtn
+{
+	margin: -10px auto;
+	width: 125px;
+	background-color: gray;
+	border: 2px solid black;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#submitBtn a
+{
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (min-width:640px)
+{
+#contactSect
+{
+	color: white;
+	font-family: 'open_sansregular';
+	text-align: center;
+	display: flex;
+	width: 600px;
+}
+
+#contactSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+#contactLeftText h4
+{
+	color: white;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#contactLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin: 10px 550px;
+}
+
+#contactForm
+{
+	display: flex;
+	width: 350px;
+	color: white;
+	margin-top: -550px;
+	padding-top: 50px;
+}
+
+#contactForm label
+{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+#contactForm input 
+{
+	padding-bottom: 15px;
+}
+
+#map
+{
+
+}
+
+#mailInfo
+{
+	color: white;
+	font-family: 'open_sansregular';
+	font-weight: bold;
+	position: relative;
+	left: -310px;
+
+
+}
+
+#mailInfo h5
+{
+	margin-top: 40px;
+}
+}

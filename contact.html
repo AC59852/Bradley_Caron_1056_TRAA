@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/contact.css">
 	<title>TRAA Contact Page</title>
 </head>
-<body class="navBck">
+<body id="greenBck" class="navBck">
 <h1 class="hidden">Thames River Anglers Association</h1>
 	<header id="mainHeader">
 		<nav class="blackBar topNav">
@@ -25,40 +27,35 @@
 		</nav>
 	</header>
 	<section id="contactSect">
-		<h3>Contact the TRAA</h3>
-	<div id="greenBox">
-		            <div id="contactLeftText">
-            <h4>There's a bunch of ways to get in touch with the TRAA</h4>
-            <p>If you're with a like-minded organization or group looking for more information on the TRAA and its activites or ...</p>
-            <p>If you're an individual who would like to become involved with the activities undertaken by the TRAA ...</p>
-            <div id="map">
-            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.6218127416296!2d-81.21897559859622!3d42.94409910726213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3b01c9e9983%3A0x84558efdb9f3a3a1!2s790+Southdale+Rd+E%2C+London%2C+ON+N6E+1A8!5e0!3m2!1sen!2sca!4v1549823443861" width="350" height="250" style="border:0" allowfullscreen></iframe>
-            </div>
-            <p>790 Southdale Road East, London, Ontario.</p>
-            </div>
-		<div id="contactInputArea"></div>
 	            <form id="contactForm" action="form.php" method="post">
-                    <label for="paymentName">Name
+                    <label for="paymentName"><p>Name</p>
                     <input id="paymentName" type="text" required name="fullName" size="40" placeholder="Required"></label>
                     
-                    <label for="paymentEmail">Email
+                    <label for="paymentEmail"><p>Email</p>
                     <input id="paymentEmail" type="email" required size="40" placeholder="Required"></label>
                     
                     
-                    <label for="paymentDonation">Phone Number
+                    <label for="paymentDonation"><p>Phone Number</p>
                     <input id="paymentDonation" type="text" size="40" placeholder="Optional"></label>
                     
-                    <label for="paymentMsg">Comments
-                    <textarea id="paymentMsg" name="comment" required cols="50" rows="8" placeholder="Required"></textarea></label>
+        <label for="paymentMsg"><p>Comments</p>
+                    <textarea id="submitMsg" name="comment" required cols="50" rows="8" placeholder="Required"></textarea></label>
                    
-                    <div id="paymentBtn"><a href="#">Submit</a></div>
+                    <div id="submitBtn"><a href="#">Submit</a></div>
             </form>
             </div>
-               <div id="mailInfo">
-		<h4>TRAA Snail Mail</h4>
-		<p>Send all those cards and letters (and cheques) to: Thames River Anglers Association <br> 2202 Coronation Drive <br> London, Ontario <br> N6G 0B9 <br> Note: This is a Mailing address only. </p>		
-	</div>
-            <div id="contactWhiteBar"></div>
+            <div id="mapDiv">
+            <div id="map">
+            	<h4>There's a bunch of ways to get in touch with the TRAA</h4>
+            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.6218127416296!2d-81.21897559859622!3d42.94409910726213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3b01c9e9983%3A0x84558efdb9f3a3a1!2s790+Southdale+Rd+E%2C+London%2C+ON+N6E+1A8!5e0!3m2!1sen!2sca!4v1549823443861" style="border:0" allowfullscreen></iframe>
+            	<p>If you're with a like-minded organization or group looking for more information on the TRAA and its activites or if you're an individual who would like to become involved with the activities undertaken by the TRAA ...</p>
+            <p id="location">790 Southdale Road East, London, Ontario.</p>
+            <div id="mailInfo">
+		<h5>TRAA Snail Mail</h5>
+		<p>Send all those cards and letters (and cheques) to: Thames River Anglers Association 2202 Coronation Drive London, Ontario N6G 0B9 Note: This is a Mailing address only. </p>		
+			</div>
+            </div>
+            </div>
 	</section>
 </body>
 </html>

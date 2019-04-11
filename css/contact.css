@@ -1,7 +1,7 @@
 
 #submitMsg
 {
-	width: 300px;
+	width: 280px;
 }
 
 #contactSect
@@ -42,10 +42,11 @@
 {
 	display: flex;
 	flex-direction: column;
-	width: 320px;
+	width: 290px;
 	color: white;
 	padding-top: 50px;
-	margin: 0 auto;
+	margin: 0 auto !important;
+	
 }
 
 #greenBck 
@@ -63,12 +64,13 @@
 #contactForm input 
 {
 	padding-bottom: 15px;
-	width: 300px;
+	width: 280px;
+
 }
 
-#contactForm label p
+#contactForm
 {
-
+	
 }
 
 #mailInfo
@@ -80,8 +82,9 @@
 
 }
 
-#mailInfo h4
+#mailInfo h5
 {	
+
 	font-size: 30px;
 	margin: 0 auto;
 	padding-bottom: 10px;
@@ -113,6 +116,7 @@
 	padding-top: 20px;
 	line-height: 24px;
 	width: 320px;
+	margin: 0 auto !important;
 }
 
 #location
@@ -152,4 +156,83 @@
 {
 	color: white;
 	text-decoration: none;
+}
+
+@media screen and (min-width:640px)
+{
+#contactSect
+{
+	color: white;
+	font-family: 'open_sansregular';
+	text-align: center;
+	display: flex;
+	width: 600px;
+}
+
+#contactSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+#contactLeftText h4
+{
+	color: white;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#contactLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin: 10px 550px;
+}
+
+#contactForm
+{
+	display: flex;
+	width: 350px;
+	color: white;
+	margin-top: -550px;
+	padding-top: 50px;
+}
+
+#contactForm label
+{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+#contactForm input 
+{
+	padding-bottom: 15px;
+}
+
+#map
+{
+
+}
+
+#mailInfo
+{
+	color: white;
+	font-family: 'open_sansregular';
+	font-weight: bold;
+	position: relative;
+	left: -310px;
+
+
+}
+
+#mailInfo h5
+{
+	margin-top: 40px;
+}
 }

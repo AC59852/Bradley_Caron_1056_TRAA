@@ -1,4 +1,9 @@
 
+#submitMsg
+{
+	width: 300px;
+}
+
 #contactSect
 {
 	color: white;
@@ -58,11 +63,12 @@
 #contactForm input 
 {
 	padding-bottom: 15px;
+	width: 300px;
 }
 
 #contactForm label p
 {
-	
+
 }
 
 #mailInfo
@@ -83,7 +89,7 @@
 
 #mailInfo p
 {
-	width: 320px;
+	width: 250px;
 	text-align: left;
 	margin: 0 auto;
 	line-height: 22px;
@@ -96,12 +102,17 @@
 
 #map 
 {
+	display: flex;
+	flex-direction: column;
 }
 
 #map h4
 {
-	font-size: 28px;
+	font-size: 18px;
 	padding-bottom: 30px;
+	padding-top: 20px;
+	line-height: 24px;
+	width: 320px;
 }
 
 #location
@@ -111,15 +122,34 @@
 
 #map p
 {
-	font-size: 24px;
+	font-size: 18px;
 	padding-top: 30px;
-	width: 320px;
-	margin: 0 auto;
+	width: 250px;
+	margin: 0 auto !important;
 	text-align: left;
+	justify-content: center;
 }
 
 #map iframe
-{
-	width: 320px;
+{	
+	margin: 0 auto !important;
+	width: 250px;
 	height: 250px;
+}
+
+#submitBtn
+{
+	margin: -10px auto;
+	width: 125px;
+	background-color: gray;
+	border: 2px solid black;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#submitBtn a
+{
+	color: white;
+	text-decoration: none;
 }

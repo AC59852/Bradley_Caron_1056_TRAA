@@ -1,8 +1,4 @@
 /*Utility Class*/
-.hidden
-{
-	display: none;
-}
 
 /* General rules - scales images, videos to size of container */
 img, embed, object, video {
@@ -33,15 +29,6 @@ img {
   max-width: 1200px;
   margin: 30px auto 90px auto;
   text-align: center;
-}
-
-#mainHeader h2
-{
-  text-align: center;
-  font-family: 'glacial_indifferencebold';
-  color: black;
-  letter-spacing: 1px;
-  font-size: 9vw;
 }
 
 #button {

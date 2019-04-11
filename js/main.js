@@ -13,6 +13,7 @@
 		burgerMenu.classList.add("toggleOn");
 		topNav.classList.add("toggleOn");
 		blackBar.classList.remove("blackBar");
+		blackBar.style.backgroundColor = "gray";
 		closeBtn.style.display = "block";
 	};
 

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/about.css">
 	<title>TRAA About Page</title>
 </head>
 <body class="navBck">
@@ -16,7 +17,6 @@
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="projects.html">OUR PROJECTS</a></li>
 				<li><a href="fundraising.html">FUNDRAISERS</a></li>
-				<li><object id="logo" type="image/svg+xml" data="images/logo.svg"></object></li>
 				<li><a href="pastevents.html">PAST EVENTS</a></li>
 				<li><a href="partners.html">PARTNERS</a></li>
 				<li><a href="newsletters.html">NEWSLETTER</a></li>
@@ -26,22 +26,15 @@
 	</header>
 	<section id="iconContainer">
 		<h2 class="hidden">List With Icons</h2>
-		<div class="iconSize"><img height="110" width="110" src="images/multi_fish.png" alt="Icon of Two Fish"><p>protect, enhance and regenerate a viable, multi-species, year-round fishery.</p></div>
-		<div class="iconSize"><img height="110" width="110" src="images/environment.png" alt="Icon of Hand with Sprout"><p>promote and participate in environmental clean-up, pollution 
+		<div class="iconSize"><img src="images/multi_fish.png" alt="Icon of Two Fish"><p>protect, enhance and regenerate a viable, multi-species, year-round fishery.</p></div>
+		<div class="iconSize"><img src="images/environment.png" alt="Icon of Hand with Sprout"><p>promote and participate in environmental clean-up, pollution 
 control and rehabilitation.</p></div>
-		<div class="iconSize"><img height="110" width="110" src="images/man_fish.png" alt="Icon of Man Holding Fish"><p>breed, relocate and stock to re-establish or augment appropriate species of fish.</p></div>
-		<div class="iconSize"><img height="110" width="110" src="images/partnership.png" alt="Icon of Hands Shaking"><p id="partner">form partnerships with community businesses, government agencies, special interest groups, landowners, and other stakeholders in the Thames River watershed.</p></div>
-		<div class="iconSize"><img height="110" width="110" src="images/sport_fishing.png" alt="Icon of Man Fishing"><p id="sport">promote 
+		<div class="iconSize"><img src="images/man_fish.png" alt="Icon of Man Holding Fish"><p>breed, relocate and stock to re-establish or augment appropriate species of fish.</p></div>
+		<div class="iconSize"><img src="images/partnership.png" alt="Icon of Hands Shaking"><p id="partner">form partnerships with community businesses, government agencies, special interest groups, landowners, and other stakeholders in the Thames River watershed.</p></div>
+		<div class="iconSize"><img src="images/sport_fishing.png" alt="Icon of Man Fishing"><p id="sport">promote 
 environmentally sound sport fishing practices.</p></div>
-		<div class="iconSize"><img height="110" width="110" src="images/public_awareness.png" alt="Icon of Group of People Talking"><p id="aware">increase public awareness of the unique diversity of the Thames River Watershed, its challenges, its recreational opportunities and its vital importance to our community.</p></div>
+		<div class="iconSize"><img src="images/public_awareness.png" alt="Icon of Group of People Talking"><p id="aware">increase public awareness of the unique diversity of the Thames River Watershed, its challenges, its recreational opportunities and its vital importance to our community.</p></div>
 	</section>
-	<div class="aboutlightbox" id="aBTemp"><a href="#_">
-		<img src="images/graphs.png" alt=""></a>
-			<p>Some information about our history with releases for Brown Trout and Rainbow Trout Eggs hatching and being released. Some information about the amount of Komoka, Oxbow and Dingman fish caught throughout the years. And the membership growth over the years as well.</p>
-		</div>
-	<div id="aboutLightbox">
-		<a href="#aBTemp">Check out some Extra Stats!</a>
-	</div>
 <aside id="histDivider">
 	<h2>HISTORY</h2>
 	<div id="whiteBarHist"></div>
@@ -51,17 +44,22 @@ environmentally sound sport fishing practices.</p></div>
 	<h2 class="hidden">History Extended</h2>
 	<p class="histPara">The TRAA has a history of always having a core group of active members supported by those who just want to be part of the solution. Either way, every member of the TRAA is active in their advocacy for the health of the Thames River watershed and its inhbitants.</p>
 	<div id="histImages">
-		<div>
-	<img src="images/fishing.jpg" height="300" width="350" alt="">
+		<div class="histImage">
+	<img src="images/fishing.jpg" alt="">
 	<p class="imageText">TRAA members relocating</p>
 	</div>
-	<div>
-	<img src="images/anglers_walking.jpg" height="300" width="350" alt="">
+	<div class="histImage image3">
+	<img src="images/Brook_Trout_Release_Home.png"  alt="">
+	<p class="imageText text3">TRAA members releasing trout</p>
+	</div>
+	<div class="histImage">
+	<img src="images/anglers_walking.jpg" alt="">
 	<p class="imageText">TRAA members moving down stream</p>
 	</div>
 	</div>
 	<p class="histPara" id="para2">The TRAA is not a fishing club, although most members are anglers and share fishing as a common interest. We are a "hands on" environmental group who likes to work at a grass roots level. The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and 
 direction for the TRAA.</p>
 </section>
+<script src="js/main.js"></script>
 </body>
 </html>

@@ -45,8 +45,73 @@
     font-style: normal;
 }
 
-.topNav 
-{
+#burgerCon {
+  margin-top: 20px;
+}
+
+#burgerCon {
+ display: none;
+}
+
+#burgerCon.toggleOn {
+  display: block;
+}
+
+.topNav li img {
+	display: none;
+}
+
+#burgerMenu.toggleOn span{
+  position: relative;
+  left: 93%;
+  top: 0.5%;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  width: 5%;
+}
+
+#burgerMenu.toggleOn {
+  background-color: grey;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#burgerMenu.toggleOn li {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 5px;
+  border-bottom: 3px solid white;
+  font-size: 19.5px;
+}
+
+#burgerMenu.toggleOn li a {
+  text-decoration: none;
+  color: white;
+}
+
+#burgerMenu li:first-of-type {
+  border-bottom: none;
+}
+
+.topNav {
+  display: flex;
+}
+
+.topNav h2 {
+  display: block !important;
+}
+
+#burgerCon.slideToggle {
+  display: block;
+}
+
+
+.topNav {
 	display: none;
 }
 
@@ -58,6 +123,7 @@
 	justify-content: center;
 	justify-content: space-evenly;
 }
+
 
 .topNav ul li
 {
@@ -125,6 +191,10 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin: 0 auto; 
+}
+
+#iconContainer div {
+	flex-basis: 100px;
 }
 
 .iconSize {
@@ -396,7 +466,7 @@
 }
 
 
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1080px){
 	#homeBck
 {
 	background-image: url(../images/bck2.jpg);
@@ -411,6 +481,9 @@
 #homeTop {
 	background-color: rgba(0,0,0,0);
 }
+  
+#burgerMenu.toggleOn {
+	padding-left: 25px;
 
 .topNav {
 		display: block;
@@ -420,12 +493,15 @@
 	margin: 0 auto 0;
 	height: 75px;
 }
+.topNav {
+	margin-top: -20px !important;
+		display: block !important;
+	}
 
-.navBck
-{
-	background-image: url(images/navBck.png);
-	background-size: contain;
+.navBck {
+	background-image: url(../images/navBck.png);
 	background-repeat: no-repeat;
+	background-size: cover 1;
 }
 
 .topNav ul
@@ -438,8 +514,9 @@
 
 .topNav ul li
 {
+	margin-top: 20px;
 	margin-left: -30px;
-	padding: 35px 15px 0 20px;
+	padding: 25px 15px 0 20px;
 	letter-spacing: 2px;
 }
 
@@ -465,7 +542,7 @@
 	display: flex;
 	font-family: 'glacial_indifferenceregular';
 	width: 760px;
-	margin: 50px auto 0 auto;
+	margin: 225px auto 0 auto;
 	font-size: 90px;
 	justify-content: center;
 	text-align: center;
@@ -488,7 +565,7 @@
 	display: block;
 	border: 2px solid white;
 	border-radius: 5px;
-	width: 11%;
+	width: 15%;
 	height: 15px;
 	background-color: #333333;
 	margin: 0 auto 50px; 
@@ -504,13 +581,9 @@
 {
 	margin-top: -15px;
 	margin-bottom: 20px;
-	height: 162px;
+	height: 200px;
 }
 #button {
-	display: none;
-}
-
-#burgerCon span {
 	display: none;
 }
 
@@ -522,18 +595,11 @@
 }
 }
 
-/* DO NOT CHANGE SECTION*/
 
 .hidden
 {
 	display: none;
 }
-
-/* End of DO NOT CHANGE SECTION*/
-
-/* Start of Homepage*/
-
-
 
 /* Start of Fundraising*/
 #merchandise
@@ -619,7 +685,6 @@
 {
 	font-family: 'glacial_indifferenceitalic';
 	font-weight: bold;
-
 }
 
 
@@ -627,7 +692,6 @@
 {
 	font-family: 'glacial_indifferencebold';
 	font-size: 24px;
-
 }
 
 #paymentFirstP

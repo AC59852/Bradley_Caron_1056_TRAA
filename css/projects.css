@@ -1,9 +1,36 @@
-#projBigImage {
+.hide {
+	display: none !important;
+}
+
+@keyframes Reveal {
+  0% { top: -1000px }
+  40% { top: 100px }
+  80% { top: 0 }
+  100% { top: 0 }
+}
+
+@keyframes Hide {
+  0% {top: 0;}
+  20% { top: 200px }
+  100% { top: -1000px; }
+}
+
+
+#tempClose {
+	color: red;
+	font-family: 'glacial_indifferencebold';
+	font-size: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#projBigImage, #templateBigImg {
 	display: -webkit-flex;
 	justify-content: center;
 	flex: 1 1 auto;
 }
-#projBigImage img {
+#projBigImage img, #templateBigImg img {
 	width: 100%;
 	height: 100%;
 	max-width: 900px;
@@ -46,13 +73,52 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .projImage {
+	cursor: pointer;
+}
+.projImage, .templateImage {
 	flex-basis: 45%;
 	max-width: 200px;
 	margin: 5px;
 	margin-bottom: 15px;
 }
-.projImage img {
+
+.projImage h3 {
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	text-align: center;
+}
+
+#templateCon p {
+	font-family: 'open_sansregular';
+	padding-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	max-width: 700px;
+}
+
+#templateCon h3 {
+	font-family: 'glacial_indifferenceregular';
+	text-align: center;
+	margin-top: 30px;
+	font-size: 36px;
+	margin-bottom: 30px;
+	margin-bottom: 
+}
+
+.templateImage p {
+	font-size: 12px;
+	text-align: center;
+	line-height: 13px !important;
+}
+
+#templateImageCon {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projImage img, .templateImage img {
 	width: 100%;
 	border: 1px solid black;
 }
@@ -92,6 +158,28 @@
 	display: none;
 }
 
+.templateFS {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+}
+
+.move {
+	position: absolute;
+	top: -4500px;
+}
+
+@media screen and (min-width: 700px) {
+	#templateCon p {
+		margin: 0 auto;
+	}
+
+	.projImage h3 {
+		font-size: 14px;
+	}
+}
+
 @media screen and (min-width: 457px) {
 	#whiteBarProj {
 		display: block;
@@ -104,7 +192,7 @@
 }
 
 @media screen and (min-width: 630px) {
-	#imageContainer {
+	#imageContainer, #templateBigImg, #templateImageCon {
 		justify-content: center;
 	}
 	#mainHeader h2 {
@@ -113,13 +201,23 @@
 	#topProjects h2 {
 		font-size: 28px;
 	}
-	.projImage {
-		flex-basis: 31%;
+	.projImage, .templateImage {
+	flex-basis: 31%;
 	max-width: 300px;
 }
 }
 
 @media screen and (min-width: 1080px) {
+
+	#tempClose {
+		position: sticky;
+		top: 75px;
+		margin-left: 250px; 
+	}
+
+	.projImage h3 {
+		font-size: 18px;
+	}
 
 .topNav {
 	margin-top: 50px !important;
@@ -134,7 +232,7 @@
 	text-align: center;
 	margin: 150px auto;
 }
-.projImage {
+.projImage, .templateImage {
 	max-width: 430px;
 	flex-basis: 32%;
 }

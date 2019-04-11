@@ -55,9 +55,16 @@
 }
 
 .blackBar {
-	background-color: grey;
+	background-image: url(../images/navBck.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding-bottom: 20px;
 }
+
+.blackBarHome {
+	display
+}
+
 #burgerCon {
   margin-top: 20px;
 }
@@ -70,16 +77,23 @@
   display: block;
 }
 
+@keyframes slideOut {
+	0% {left: -600px;}
+	40% {left: 50px;}
+	100% {left: 0;}
+}
+
 .topNav li img {
 	display: none;
 }
 
 #burgerMenu.toggleOn span{
   position: relative;
+  font-family: 'glacial_indifferenceregular';
   left: 93%;
   top: 0.5%;
   color: red;
-  font-size: 20px;
+  font-size: 28px;
   cursor: pointer;
   width: 5%;
 }
@@ -136,6 +150,10 @@
 	letter-spacing: 2px;
 }
 
+#homeAbout {
+	display: none;
+}
+
 .topNav ul li a
 {
 
@@ -155,17 +173,22 @@
 .line { display: none; }
 
 #homeTop {
-	background-color: gray;
+	background-image: url(../images/hometop.png);
+	background-size: cover;
+	padding-top: 50px;
 	padding-bottom: 0.03px;
+	height: 300px;
 }
 
 #title {
+	color: white;
 	text-align: center;
 	font-size: 9vw;
 	font-family: 'glacial_indifferenceregular';
 }
 
 #slogan {
+	color: white;
 	text-align: center;
 	font-size: 5vw;
 	margin-top: 15px;
@@ -173,6 +196,7 @@
 }
 
 #aboutText {
+	color: white;
 	font-family: 'open_sansregular';
 	font-weight: bold;
 	text-align: center;
@@ -257,7 +281,6 @@
 
 .imageText {
 	font-family: 'open_sanslight';
-	position: absolute;
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: -20px;
@@ -277,10 +300,6 @@
 .image3 {
 	display: none;
 }
-
-.text1 { margin-left: 25px; }
-
-.text2 { margin-left: 6px; }
 
 .text3 { 
 	margin-left: 18px;
@@ -474,18 +493,21 @@
 	#eventsTitle {
 		display: none;
 	}
+	#homeAbout {
+	display: block;
+}
+
 .blackBar h2{
 	background-color: rgba(0,0,0,0); 
 	display: none;
 }
 .blackBar {
-	background-color: rgba(0,0,0,0) !important;
+	background-image: none;
 	}
 	#homeBck
 {
-	background-image: url(../images/bck2.jpg);
+	background-image: url(../images/bck2.png);
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 #mobileCon {
@@ -493,7 +515,7 @@
 }
 
 #homeTop {
-	background-color: rgba(0,0,0,0);
+	background-image: none;
 }
 #burgerMenu.toggleOn {
 	padding-left: 25px;

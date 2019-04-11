@@ -128,6 +128,15 @@
 	display: none;
 }
 
+.topNav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
 
 .topNav ul li
 {
@@ -495,8 +504,17 @@
 #homeTop {
 	background-color: rgba(0,0,0,0);
 }
+  
 #burgerMenu.toggleOn {
 	padding-left: 25px;
+
+.topNav {
+		display: block;
+	}
+.blackBar
+{
+	margin: 0 auto 0;
+	height: 75px;
 }
 .topNav {
 	margin-top: -20px !important;
@@ -894,7 +912,6 @@
 	height: 230px;
 	width: 230px;
 	background-color: #333333;
-}
 
 /* Start of Contact*/
 #contactSect

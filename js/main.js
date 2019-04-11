@@ -1,5 +1,5 @@
 (function(){
-	
+  
 	console.log("fired");
 
 	var button = document.querySelector("#button");

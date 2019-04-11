@@ -115,6 +115,15 @@
 	display: none;
 }
 
+.topNav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
 
 .topNav ul li
 {
@@ -472,8 +481,17 @@
 #homeTop {
 	background-color: rgba(0,0,0,0);
 }
+  
 #burgerMenu.toggleOn {
 	padding-left: 25px;
+
+.topNav {
+		display: block;
+	}
+.blackBar
+{
+	margin: 0 auto 0;
+	height: 75px;
 }
 .topNav {
 	margin-top: -20px !important;
@@ -899,100 +917,6 @@
 .aboutlightbox:target {
   	visibility: visible;
 	opacity: 1;
-}
-/* Start of Partners Page*/
-#partners
-{
-	width: 960px;
-	margin: 200px auto 30px auto;
-	color: #333333;
-	text-align: center;
-}
-#partners p
-{
-	font-family: 'open_sansregular';
-	margin-top: 20px;
-}
-
-#partners h3
-{
-	margin-bottom: 40px;
-	font-family: 'glacial_indifferencebold';
-	font-size: 24px;
-}
-
-.partnerBox
-{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding-bottom: 30px;
-}
-
-.partnerBox p
-{
-	padding-left: 40px;
-}
-
-.partnerImgs
-{
-	width: 240px;
-	height: 80px;
-}
-#anglingText
-{
-	margin-left: 45px;
-}
-
-#anglingImg
-{
-	width: 240px;
-	height: 180px;
-}
-
-/* Start of Newsletters*/
-#newsletters
-{
-	width: 980px;
-	margin: 200px auto 60px auto;
-	text-align: center;
-}
-
-#newsletters a
-{
-	font-family: 'open_sansregular';
-	font-size: 17px;
-}
-#newsImgs
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-#newsletters h2
-{
-	color: black;
-	font-family: 'glacial_indifferencebold';
-	font-size: 32px;
-	padding-bottom: 70px;
-}
-
-.newsBox p
-{
-	color: #333333;
-	margin-top: 20px;
-	font-family: 'glacial_indifferencebold';
-	font-size: 16px;
-}
-.newsBox
-{
-	margin-bottom: 100px;
-	margin-left: 20px;
-	height: 230px;
-	width: 230px;
-	background-color: #333333;
 }
 
 /* Start of Contact*/

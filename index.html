@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<meta charset="UTF-8">
@@ -9,28 +10,71 @@
 <body id="homeBck">
 	<h1 class="hidden">Thames River Anglers Association</h1>
 	<header id="mainHeader">
-		<nav class="blackBar topNav">
+		<button id="button"></button>
+		<nav>
 			<h2 class="hidden">Main Navigation</h2>
-			<ul>
+			<div id="burgerCon" class="topNav">
+			<ul id="burgerMenu">
+				<li><span>X</span></li>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="projects.html">OUR PROJECTS</a></li>
 				<li><a href="fundraising.html">FUNDRAISERS</a></li>
-				<li><object id="logo" type="image/svg+xml" data="images/logo.svg"></object></li>
+				<li><img id="logo" src="images/logo.svg" alt=""></li>
 				<li><a href="pastevents.html">PAST EVENTS</a></li>
 				<li><a href="partners.html">PARTNERS</a></li>
 				<li><a href="newsletters.html">NEWSLETTER</a></li>
 				<li><a href="contact.html">CONTACT</a></li>
 			</ul>
+			</div>
 		</nav>
 	</header>
-		<div class="line"></div>
-		<h2 class="hidden">Box for Text</h2>
-		<div id="title"><h3 class="title">Thames River<span>Anglers Association</span></h3></div>
+	<section id="homeTop">
+		<div id="title"><h3 class="title">Thames River<span> Anglers Association</span></h3></div>
 		<section id="textBox">
 		<h4 id="slogan">Dedication Today For Tomorrow</h4>
-		<div id="aboutBtn"><a href="about.html">Who We Are</a></div>
+		<h4 id="aboutText">About</h3>
+			<div id="arrow"></div>
+		<a id="aboutBtn" href="about.html">Who We Are</a>
 	</section>
+	</section>
+	<div id="mobileCon">
+				<section id="iconContainer">
+		<h2 class="hidden">List With Icons</h2>
+		<div><img class="iconSize sportImg" src="images/sport_fishing.png" alt="Icon of Man Fishing"><p id="sport">promote environmentally sound sport fishing practices.</p></div>
+		<div><img class="iconSize" src="images/environment.png" alt="Icon of Hand with Sprout"><p>promote and participate in environmental clean-up, pollution control and rehabilitation.</p></div>
+		<div><img class="iconSize" src="images/man_fish.png" alt="Icon of Man Holding Fish"><p>breed, relocate and stock to re-establish or augment appropriate species of fish.</p></div>
+		<div><img class="iconSize" src="images/public_awareness.png" alt="Icon of Group of People Talking"><p id="aware">increase public awareness of the unique diversity of the Thames River Watershed, its challenges, its recreational opportunities and its vital importance to our community.</p></div>
+		<div><img src="images/partnership.png" class="iconSize" alt="Icon of Hands Shaking"><p id="partner">form partnerships with community businesses, government agencies, special interest groups, landowners, and other stakeholders in the Thames River watershed.</p></div>
+		<div id="multiFish"><img class="iconSize" src="images/multi_fish.png" alt="Icon of Two Fish"><p>protect, enhance and regenerate a viable, multi-species, year-round fishery.</p></div>
+	</section>
+<aside id="histDivider">
+	<h2>HISTORY</h2>
+	<div id="whiteBarHist"></div>
+	<p>In the spring of 1986 the TRAA was formed by anglers concerned with the state of the fishery in the Thames River watershed, particularly the dwindling smallmouth bass population in the North Thames River.</p>
+</aside>
+<section id="histExt">
+	<h2 class="hidden">History Extended</h2>
+	<p class="histPara">The TRAA has a history of always having a core group of active members supported by those who just want to be part of the solution. Either way, every member of the TRAA is active in their advocacy for the health of the Thames River watershed and its inhbitants.</p>
+	<div id="histImages">
+		<div class="histImage">
+	<img src="images/fishing.jpg"  alt="">
+	<p class="imageText text1">TRAA members relocating</p>
+	</div>
+	<div class="histImage image3">
+	<img src="images/Brook_Trout_Release_Home.png"  alt="">
+	<p class="imageText text3">TRAA members releasing trout</p>
+	</div>
+	<div class="histImage">
+	<img src="images/anglers_walking.JPG"  alt="">
+	<p class="imageText text2">TRAA members moving down stream</p>
+	</div>
+	</div>
+	<p class="histPara" id="para2">The TRAA is not a fishing club, although most members are anglers and share fishing as a common interest. We are a "hands on" environmental group who likes to work at a grass roots level. The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and 
+direction for the TRAA.</p>
+</section>
+		</section>
+	</div>
 	<script src="js/main.js"></script>
 </body>
 </html>

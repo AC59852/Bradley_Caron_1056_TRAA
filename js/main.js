@@ -50,18 +50,18 @@
 			console.log("Animation Fired");
 			templatePage.classList.remove("hidden");
 
-		}
+		};
 
 		function testEnd() {
 			console.log("Animation Ended");
 			templatePage.removeAttribute("style");
 			if (templatePage.classList.contains('hidden')) {
 				templatePage.classList.remove('hidden');
-			}
-			else if (bodyBck.classList.contains('navBck')) {
+			};
+			if (bodyBck.classList.contains('navBck')) {
 				templatePage.classList.add('hidden');
-			}
-		}
+			};
+		};
 
 
 		function openTemp() {
@@ -74,7 +74,7 @@
 			top.classList.add('hidden');
 			blackBar.classList.add('hide');
 			histDivider.classList.add('hidden');
-	}
+	};
 
 	projects.forEach(project => project.addEventListener("click", openTemp));
 	
@@ -87,5 +87,23 @@
 			top.classList.remove('hidden');
 			histDivider.classList.remove('hidden');
 			blackBar.classList.remove('hide');
-	})
+	});
+	let test = [
+	[`test number 1`, `dont appear at the top1`, `dont appear at the middle1`],
+	[`test number 2`, `dont appear at the top2`, `dont appear at the middle2`],
+	[`test number 3`, `dont appear at the top3`, `dont appear at the middle3`],
+	];
+
+	projects.forEach(project => project.addEventListener("click", function() {
+
+		let i = this.className.split(" ")[1].slice(4,5);
+		console.log(i);
+		let	tempHead = document.querySelector("#templateHead"),
+			tempFirstPara = document.querySelector("#para0"),
+			tempSecondPara = document.querySelector("#para1");
+
+		tempHead.innerHTML = `${test[i][0]}`;
+		tempFirstPara.innerHTML = `${test[i][1]}`;
+		tempSecondPara.innerHTML = `${test[i][2]}`;
+	}))
 })();

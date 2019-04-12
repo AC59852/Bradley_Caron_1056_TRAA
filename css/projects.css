@@ -211,6 +211,7 @@
 
 	#tempClose {
 		position: sticky;
+		width: 35px;
 		top: 75px;
 		margin-left: 250px; 
 	}
@@ -219,8 +220,12 @@
 		font-size: 18px;
 	}
 
+	.blackBar {
+		margin-top: -50px !important;
+	}
+
 .topNav {
-	margin-top: 50px !important;
+	margin-top: 150px !important;
 	margin-bottom: 130px;
 }
 	#imageContainer
@@ -291,6 +296,10 @@
 	padding-bottom: 20px;
 	letter-spacing: 1px;
 	max-width: 100%;
+}
+
+.topNav ul li {
+	margin-top: 10px;
 }
 
 #projLinks a

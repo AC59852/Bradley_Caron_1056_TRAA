@@ -132,13 +132,4 @@ let lightbox = document.querySelector(".lightbox"),
     // this is removing showLightBox from the class list when clicking anywhere in the lightbox
       lightbox.classList.remove("showLightBox");
     }
-
-    // function for closing the side menu and revealing the full screen if needed.
-    button.addEventListener("click", function() {
-      burgerMenu.classList.remove("toggleOn");
-        topNav.classList.remove("toggleOn");
-          blackBar.classList.add("blackBar");
-        });
-
-
     lightbox.addEventListener("click", closeLightBox);

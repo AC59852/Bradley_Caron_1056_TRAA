@@ -25,7 +25,7 @@
 	cursor: pointer;
 }
 
-#projBigImage, #templateBigImg {
+#projBigImage {
 	display: -webkit-flex;
 	justify-content: center;
 	flex: 1 1 auto;
@@ -33,9 +33,13 @@
 #projBigImage img, #templateBigImg img {
 	width: 100%;
 	height: 100%;
-	max-width: 900px;
+	max-width: 950px;
 }
 
+#templateBigImg {
+	display: flex;
+	justify-content: center !important;
+}
 #topProjects h2
 {
 	display: flex;
@@ -237,8 +241,13 @@
 	text-align: center;
 	margin: 150px auto;
 }
-.projImage, .templateImage {
+.projImage {
 	max-width: 430px;
+	flex-basis: 32%;
+}
+
+.templateImage {
+	max-width: 350px;
 	flex-basis: 32%;
 }
 
@@ -316,6 +325,11 @@
 #topProjects p {
 	font-size: 18px;
 	text-align: left;
+}
+
+.templateImage p {
+	font-size: 16px !important;
+	line-height: 20px !important;
 }
 
 }

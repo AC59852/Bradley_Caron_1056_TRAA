@@ -1,0 +1,400 @@
+#merchandise
+{
+	max-width: 900px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#merchandise h2
+{
+	color: #333333;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'glacial_indifferencebold';
+	font-size: 5vw;
+	letter-spacing: 1px;
+}
+
+@media screen and (min-width: 860px) {
+	#merchandise h2 {
+		font-size: 43px;
+	}
+
+}
+
+.merchBox
+{
+	max-height: 200px !important;
+	flex-basis: 40%;
+	max-width: 170px;
+	margin: 5px;
+	margin-bottom: 15px;
+}
+
+#merchBoxes {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+}
+
+.merchBox img
+{
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.merchBox p
+{
+	font-family: 'open_sansregular';
+	color: #333333;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+#whiteBarFund
+{
+	height: 2px;
+	margin: 5px auto;
+	background-color: white;
+	width: 30%;
+}
+
+#histDivider p {
+	font-size: 12px;
+}
+
+@media screen and (min-width: 538px) {
+	#whiteBarFund {
+		width: 161px;
+	}
+}
+
+#paymentSect
+{
+	font-family: 'open_sansregular';
+}
+
+#fundsItalic
+{
+	font-family: 'glacial_indifferenceitalic';
+	font-weight: bold;
+}
+
+
+#paymentSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 6vw;
+	max-width: 610px;
+	margin: 15px auto;
+	text-align: center;
+}
+
+#paymentSect p {
+	font-size: 3.4vw;
+	margin: 5px auto 15px auto;
+	max-width: 530px;
+}
+
+@media screen and (min-width: 610px) {
+	#paymentSect h3 {
+		font-size: 36px;
+		max-width: none !important;
+	}
+}
+
+@media screen and (min-width: 428px) {
+	#paymentSect p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#paymentSect p {
+		font-size: 16px;
+		max-width: 650px;
+		text-align: left;
+	}
+}
+
+#greenBox
+{
+	background-color: #223822;
+	height: 600px;
+	width: 100%;
+	max-width: 688px;
+	margin-bottom: 100px;
+	margin: 0 auto;
+}
+
+#paymentForm
+{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding-top: 50px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#paymentForm label
+{
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#paymentForm input 
+{
+	width: 98%;
+	padding-bottom: 15px;
+}
+
+#paymentForm textarea {
+	width: 98%;
+}
+
+#paymentBtn1
+{
+	margin: 25px auto;
+	width: 125px;
+	background-color: gray;
+	border: 2px solid black;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 30px;
+	text-align: center;
+}
+#paymentBtn1 a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#paymentLeftText h3
+{
+	font-family: 'glacial_indifferencebold';
+	color: black;;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 24px;
+	text-align: center;
+}
+
+#paymentLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	color: black;
+	padding-bottom: 10px;
+}
+
+#leftFinal
+{
+	margin-top: 30px !important;
+	width: 320px !important;
+	margin-left: 570px !important;
+}
+
+@media screen and (min-width: 640px) {
+	.merchBox {
+	flex-basis: 25%;
+	max-width: 220px;
+	max-height: 250px !important;
+}
+#merchBoxes {
+	justify-content: center !important;
+	max-width: 1100px;
+}
+#merchandise {
+	margin: 0 auto !important;
+}
+
+}
+
+@media screen and (min-width: 1080px) {
+.topNav ul li {
+	margin-top: 10px;
+}
+
+#histDivider {
+	height: 150px !important;
+}
+
+#histDivider h2 {
+	font-size: 40px !important;
+	padding-top: 15px;
+}
+#histDivider p {
+	font-size: 21px !important;
+	width: 100% !important;
+	padding-top: 15px;
+	line-height: 25px;
+}
+.merchBox {
+	max-width: 250px;
+	max-height: 250px !important;
+}
+#merchBoxes {
+	justify-content: space-evenly !important;
+	max-width: 1300px !important;
+}
+
+.merchBox p
+{
+	color: #333333;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+#whiteBarFund
+{
+	height: 3px;
+	margin: 10px auto;
+	background-color: white;
+	width: 150px;
+}
+
+#paymentSect
+{
+	color: #333333;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#fundsItalic
+{
+	font-weight: bold;
+}
+
+
+#fundBold
+{
+	font-size: 24px;
+}
+
+#paymentFirstP
+{
+	font-size: 20px;
+	width: 600px;
+	margin: 0 auto 100px auto;
+}
+
+#greenBox
+{
+	background-color: #223822;
+	height: 600px;
+	width: 960px;
+	margin-top: 700px;
+	margin-bottom: 100px;
+	max-width: none;
+}
+
+#paymentForm
+{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	color: white;
+	margin-top: -650px;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
+#paymentForm label
+{
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#paymentForm input 
+{
+	padding-bottom: 15px;
+}
+
+#paymentBtn
+{
+	margin-top: -20px;
+	width: 125px;
+	background-color: gray;
+	border: 2px solid black;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 30px;
+}
+#paymentBtn a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#paymentBtn1
+{
+	margin-top: 50px;
+	width: 125px;
+	background-color: gray;
+	border: 2px solid black;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 30px;
+}
+#paymentBtn1 a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#paymentSect h3 {
+	font-size: 44px;
+}
+
+#paymentSect p {
+	font-size: 20px;
+}
+
+#paymentWhiteBar
+{
+	height: 520px;
+	width: 2px;
+	background-color: white;
+	margin: -660px auto 200px auto;
+}
+
+#paymentLeftText {
+	margin-top: -650px;
+}
+
+#paymentLeftText h3
+{
+	color: white;
+	margin-left: 490px;
+	font-size: 22px;
+	padding-top: 90px;
+}
+
+#paymentLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	color: white;
+	width: 350px;
+	margin-left: 550px;
+}
+
+#leftFinal
+{
+	margin-top: 30px !important;
+	width: 320px !important;
+	margin-left: 570px !important;
+}
+}

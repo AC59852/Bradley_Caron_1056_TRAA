@@ -88,11 +88,20 @@
 			histDivider.classList.remove('hidden');
 			blackBar.classList.remove('hide');
 	});
-	let test = [
-	[`test number 1`, `dont appear at the top1`, `dont appear at the middle1`],
-	[`test number 2`, `dont appear at the top2`, `dont appear at the middle2`],
+	let templateContent = [
+	[`TRAA Salmonid Monitoring Spring 2012`, `Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members and personnel from the Upper 
+	Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.`, `Scale samples are taken 
+	from every tagged fish for DNA analysis to determine age and genetic classification. While our tags are green, there are lots of different
+	 tags on many species of fish out there. It's vital that you report these tag numbers and descriptions to the OMNR whether you keep or release 
+	 the fish. Otherwise all this work is compromised.`, `electro`, `sucker`, `swimming`, `Closely ready for stunned rainbow trout to drift back 
+	 to them.`, `This hognose sucker is an indicator of good to excellent water quality.`, `Paul Noble measures the girth of a solid rainbow trout.`,
+	 `bigbrown`],
+	
+	[`test number 2`, `dont appear at the top2`, `dont appear at the middle2`, `baseball_shirt`,],
+	
 	[`test number 3`, `dont appear at the top3`, `dont appear at the middle3`],
 	];
+
 
 	projects.forEach(project => project.addEventListener("click", function() {
 
@@ -100,10 +109,30 @@
 		console.log(i);
 		let	tempHead = document.querySelector("#templateHead"),
 			tempFirstPara = document.querySelector("#para0"),
-			tempSecondPara = document.querySelector("#para1");
+			tempSecondPara = document.querySelector("#para1"),
+			
+			tempFirstImage = document.querySelector("#img00"),
+			tempSecondImage = document.querySelector("#img01"),
+			tempThirdImage = document.querySelector("#img02"),
+			
+			tempFirstDesc = document.querySelector("#desc0"),
+			tempSecondDesc = document.querySelector("#desc1"),
+			tempThirdDesc = document.querySelector("#desc2"),
 
-		tempHead.innerHTML = `${test[i][0]}`;
-		tempFirstPara.innerHTML = `${test[i][1]}`;
-		tempSecondPara.innerHTML = `${test[i][2]}`;
-	}))
+			tempLargeImg = document.querySelector("#top00");
+
+		tempHead.innerHTML = `${templateContent[i][0]}`;
+		tempFirstPara.innerHTML = `${templateContent[i][1]}`;
+		tempSecondPara.innerHTML = `${templateContent[i][2]}`;
+
+		tempFirstImage.src = `images/${templateContent[i][3]}.png`;
+		tempSecondImage.src = `images/${templateContent[i][4]}.png`;
+		tempThirdImage.src = `images/${templateContent[i][5]}.png`;
+
+		tempFirstDesc.innerHTML = `${templateContent[i][6]}`;
+		tempSecondDesc.innerHTML = `${templateContent[i][7]}`;
+		tempThirdDesc.innerHTML = `${templateContent[i][8]}`;
+
+		tempLargeImg.src = `images/${templateContent[i][9]}.png`
+	}));
 })();

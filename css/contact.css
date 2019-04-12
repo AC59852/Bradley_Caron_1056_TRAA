@@ -8,7 +8,7 @@
 {
 	color: white;
 	font-family: 'open_sansregular';
-	margin: 250px auto 60px;
+	margin: 30px auto 60px;
 	text-align: center;
 }
 
@@ -215,11 +215,6 @@
 	padding-bottom: 15px;
 }
 
-#map
-{
-
-}
-
 #mailInfo
 {
 	color: white;
@@ -234,5 +229,110 @@
 #mailInfo h5
 {
 	margin-top: 40px;
+}
+}
+
+@media screen and (min-width: 1080px) {
+
+	.topNav ul li {
+		margin-top: 10px;
+	}
+#contactSect
+{
+	color: white;
+	font-family: 'open_sansregular';
+	width: 960px;
+	margin: 250px auto 60px;
+	text-align: center;
+	background-color: #223822;
+	padding: 50px 150px 0 150px;
+}
+
+#submitBtn {
+	margin: 0;
+}
+
+#contactSect h3
+{
+	font-family: 'glacial_indifferencebold';
+	font-size: 36px;
+	margin-bottom: 100px;
+}
+
+#contactLeftText h4
+{
+	color: white;
+	margin-left: 500px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#contactLeftText p
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin: 10px 550px;
+}
+
+#contactForm
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	color: white;
+	margin-top: -550px;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
+#contactForm label
+{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+#contactForm input 
+{
+	padding-bottom: 15px;
+}
+
+#contactWhiteBar
+{
+	height: 520px;
+	width: 2px;
+	background-color: white;
+	margin: -800px auto;
+}
+
+#mailInfo
+{
+	position: relative;
+	margin-top: -90px;
+	margin-bottom: 50px;
+	left: -500px;
+	font-family: 'open_sansregular';
+	font-weight: bold;
+}
+
+#map iframe {
+	width: 450px;
+	height: 450px;
+}
+
+#map p {
+	width: 450px;
+}
+
+#mailInfo p {
+	width: 300px;
+}
+
+#greenBck {
+	background-color: rgba(0,0,0,0);
 }
 }

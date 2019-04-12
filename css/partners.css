@@ -98,6 +98,7 @@ text-align: center;
 	font-size: 12px;
 	text-align: center;
 	line-height: 12px;
+  margin-top: 25px;
 }
 
 .partnerBox img
@@ -186,7 +187,7 @@ text-align: center;
 	#partners h3
 	{
 		width: 400px;
-		margin: 0 auto;
+		margin: 25px auto;
 	}
 }
 
@@ -212,7 +213,20 @@ text-align: center;
 	display: flex;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1080px) {
+
+  .topNav {
+    padding-top: 50px;
+  }
+
+  .topNav ul li {
+    margin-top: -40px;
+  }
+
+  .partnerBox {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
 
 #partnersTitle
 {
@@ -226,10 +240,8 @@ text-align: center;
 
 #partners
 {
-	width: 960px;
 	margin: 200px auto 30px auto;
 	color: #333333;
-	text-align: center;
 }
 #partners p
 {
@@ -241,7 +253,9 @@ text-align: center;
 {
 	margin-bottom: 40px;
 	font-family: 'glacial_indifferencebold';
-	font-size: 24px;
+	font-size: 24px !important;
+  line-height: 25px !important;
+  width: 100% !important;
 }
 
 .partnerBox
@@ -258,80 +272,14 @@ text-align: center;
 	height: 60%;
 }
 
-.partnerBox p
-{
-	padding-left: 40px;
-}
-
-.partnerImgs
-{
-	width: 240px;
-	height: 80px;
-}
 #anglingText
 {
-	margin-left: 45px;
+	margin-left: 190px;
 }
 
 #anglingImg
 {
-	width: 240px;
-	height: 215px;
+	width: 280px !important;
+	height: 240px;
 }
-
-  #button {
-    display: none;
-  }
-  .blackBar {
-  background-color: grey;
-  margin: 0 auto 0;
-  height: 80px;
-}
-
-.topNav {
-  display: block !important;
-  background-color: grey;
-}
-
-.topNav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-
-.topNav ul li {
-  margin-left: 20px;
-  padding: 25px 0px 0 20px;
-  letter-spacing: 2px;
-}
-
-.topNav ul li a {
-  font-family: 'open_sansregular';
-  font-size: 1.18vw;
-  color: white;
-  text-decoration: none;
-  transition: all .5s ease;
-}
-
-.topNav ul li a:hover {
-  box-shadow:
-  1px 1px green,
-  2px 2px green,
-  3px 3px green;
-}
-
-#logo {
-  margin-top: -15px;
-  height: 200px;
-}
-
-#mainHeader h2 {
-  display: none;
-}
-
-span {
-  display: none;
-  }
-
 }

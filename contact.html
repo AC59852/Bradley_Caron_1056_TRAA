@@ -11,19 +11,23 @@
 <body id="greenBck" class="navBck">
 <h1 class="hidden">Thames River Anglers Association</h1>
 	<header id="mainHeader">
-		<nav class="blackBar topNav">
+		<div id="button"></div>
+		<nav class="blackBar">
 			<h2 class="hidden">Main Navigation</h2>
-			<ul>
+			<h2 id="eventsTitle">Contact Us</h2>
+			<div id="burgerCon" class="topNav">
+			<ul id="burgerMenu">
+				<li><span>X</span></li>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="projects.html">OUR PROJECTS</a></li>
 				<li><a href="fundraising.html">FUNDRAISERS</a></li>
-				<li><object id="logo" type="image/svg+xml" data="images/logo.svg"></object></li>
 				<li><a href="pastevents.html">PAST EVENTS</a></li>
 				<li><a href="partners.html">PARTNERS</a></li>
 				<li><a href="newsletters.html">NEWSLETTER</a></li>
 				<li><a href="contact.html">CONTACT</a></li>
 			</ul>
+			</div>
 		</nav>
 	</header>
 	<section id="contactSect">
@@ -39,7 +43,7 @@
                     <input id="paymentDonation" type="text" size="40" placeholder="Optional"></label>
                     
         <label for="paymentMsg"><p>Comments</p>
-                    <textarea id="submitMsg" name="comment" required cols="50" rows="8" placeholder="Required"></textarea></label>
+                    <textarea id="submitMsg" name="comment" required rows="8" placeholder="Required"></textarea></label>
                    
                     <div id="submitBtn"><a href="#">Submit</a></div>
             </form>
@@ -57,5 +61,6 @@
             </div>
             </div>
 	</section>
+	<script src="js/main.js"></script>
 </body>
 </html>

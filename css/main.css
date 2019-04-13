@@ -102,7 +102,7 @@ textarea {
 }
 
 #burgerMenu.toggleOn {
-  background-color: #1a2b1a;
+  background-color: #253b25;
   width: 50%;
   max-width: 400px;
   height: 100%;
@@ -270,7 +270,7 @@ textarea {
 
 #histDivider {
 	margin-top: 20px;
-	background-color: #1a2b1a;
+	background-color: #253b25;
 	color: white;
 	height: 90px;
 }

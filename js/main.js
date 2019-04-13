@@ -96,11 +96,17 @@
 	Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.`, `Scale samples are taken 
 	from every tagged fish for DNA analysis to determine age and genetic classification. While our tags are green, there are lots of different
 	 tags on many species of fish out there. It's vital that you report these tag numbers and descriptions to the OMNR whether you keep or release 
+	 the fish. Otherwise all this work is compromised.`, `randy_and_fry`, `bag_of_fry`, `fry_release`, `Closely ready for stunned rainbow trout to drift back 
+	 to them.`, `This hognose sucker is an indicator of good to excellent water quality.`, `Paul Noble measures the girth of a solid rainbow trout.`,
+	 `trout_tour`],
+	
+	[`TRAA Salmonid Monitoring Spring 2012`, `Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members and personnel from the Upper 
+	Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.`, `Scale samples are taken 
+	from every tagged fish for DNA analysis to determine age and genetic classification. While our tags are green, there are lots of different
+	 tags on many species of fish out there. It's vital that you report these tag numbers and descriptions to the OMNR whether you keep or release 
 	 the fish. Otherwise all this work is compromised.`, `electro`, `sucker`, `swimming`, `Closely ready for stunned rainbow trout to drift back 
 	 to them.`, `This hognose sucker is an indicator of good to excellent water quality.`, `Paul Noble measures the girth of a solid rainbow trout.`,
 	 `bigbrown`],
-	
-	[`test number 2`, `dont appear at the top2`, `dont appear at the middle2`, `baseball_shirt`,],
 	
 	[`test number 3`, `dont appear at the top3`, `dont appear at the middle3`],
 	];

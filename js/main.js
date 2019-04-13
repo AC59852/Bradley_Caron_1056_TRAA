@@ -92,13 +92,13 @@
 			footer.classList.remove("hide");
 	});
 	let templateContent = [
-	[`TRAA Salmonid Monitoring Spring 2012`, `Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members and personnel from the Upper 
-	Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.`, `Scale samples are taken 
-	from every tagged fish for DNA analysis to determine age and genetic classification. While our tags are green, there are lots of different
-	 tags on many species of fish out there. It's vital that you report these tag numbers and descriptions to the OMNR whether you keep or release 
-	 the fish. Otherwise all this work is compromised.`, `randy_and_fry`, `bag_of_fry`, `fry_release`, `Closely ready for stunned rainbow trout to drift back 
-	 to them.`, `This hognose sucker is an indicator of good to excellent water quality.`, `Paul Noble measures the girth of a solid rainbow trout.`,
-	 `trout_tour`],
+	[`TRAA Salmonid Monitoring Spring 2012`, `The TRAA Trout Hatchery began in the mid-1980's as an outdoor upwelling box located adjacent to Komoka Creek on private property. 
+	While it was a simple and rustic affair, the TRAA enjoyed incredible egg hatching and fry survivability rates for several seasons.`, `While this setup served us well it was 
+	also very challenging to maintain. We had to pack the upwelling box with straw bales (see picture above right) to keep the water in the cells from freezing. Members of the 
+	Trout Hatchery Rotation had to huddle over each cell picking eggs in wind-driven rain, sleet and snow. Something had to be done so a new setup was housed in a new enclosure.`, 
+	`randy_and_fry`, `bag_of_fry`, `fry_release`, `Once the rout fry have reached the stage where they are ready to be released, they are collected to be transported to their new home.`,
+	`This is the first of many bags of trout fry ready to be release into a suitable tributary of the Thames River.`, `After the water temperature in the bags has been closely 
+	acclimated to that of the stream, the trout fry are carefully released into their new environs.`, `trout_tour`],
 	
 	[`TRAA Salmonid Monitoring Spring 2012`, `Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members and personnel from the Upper 
 	Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.`, `Scale samples are taken 
@@ -108,7 +108,8 @@
 	 to them.`, `This hognose sucker is an indicator of good to excellent water quality.`, `Paul Noble measures the girth of a solid rainbow trout.`,
 	 `bigbrown`],
 	
-	[`test number 3`, `dont appear at the top3`, `dont appear at the middle3`],
+	[`test number 3`, `The TRAA and the Upper Thames River Conservation Authority (UTRCA), with the blessing of the Ministry of Natural Resources (MNR), agreed to the operation of 
+	walleye hatchery in Fanshawe Conservation Area, just north-east of London, Ontario. `, `dont appear at the middle3`],
 	];
 
 

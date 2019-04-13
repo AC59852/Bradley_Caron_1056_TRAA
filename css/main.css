@@ -333,7 +333,42 @@ textarea {
 	display: none; 
 }
 
-/*Media Queries for mobile about list*/
+#mainFooter {
+	height: 180px;
+	display: flex;
+	background-color: #333333;
+	flex-wrap: wrap;
+}
+
+#footerIcons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	max-width: 400px;
+	margin: 0px auto -20px;
+}
+
+#footerIcons img {
+	width: 50px;
+	padding-top: 10px;
+}
+
+#logoBoxFooter {
+	display: none;
+}
+
+#copyright {
+	color: white;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+
+#logoBox {
+	display: none;
+}
+
 @media screen and (min-width: 400px) {
 	#iconContainer { width: 90%; }
 }
@@ -710,40 +745,4 @@ textarea {
 	.topNav ul li a {
 		font-size: 16px;
 	}
-}
-
-#mainFooter {
-	height: 180px;
-	display: flex;
-	background-color: #333333;
-	flex-wrap: wrap;
-}
-
-#footerIcons {
-	display: flex;
-	justify-content: space-evenly;
-	width: 80%;
-	max-width: 400px;
-	margin: 0px auto -20px;
-}
-
-#footerIcons img {
-	width: 50px;
-	padding-top: 10px;
-}
-
-#logoBoxFooter {
-	display: none;
-}
-
-#copyright {
-	color: white;
-	font-family: 'open_sansregular';
-	font-size: 12px;
-	width: 100%;
-	text-align: center;
-}
-
-#logoBox {
-	display: none;
 }

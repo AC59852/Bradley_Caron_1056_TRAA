@@ -155,10 +155,6 @@
   opacity: 1;
 }
 
-
-
-/*Media Query for font size changes and making boxes slightly larger*/
-
 @media screen and (min-width: 960px) {
   .eventWrapper {
     flex-basis: 170px;

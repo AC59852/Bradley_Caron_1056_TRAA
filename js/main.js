@@ -6,7 +6,8 @@
 	var burgerMenu = document.querySelector("#burgerMenu");
 	var topNav = document.querySelector(".topNav"),
 		blackBar = document.querySelector("nav"),
-		closeBtn = document.querySelector("span");
+		closeBtn = document.querySelector("span"),
+		footer = document.querySelector("#mainFooter");
 // function for adding the side menu on button press
 	closeBtn.style.display = "none";
 
@@ -46,13 +47,13 @@
 		top = document.querySelector("#topProjects"),
 		bodyBck = document.querySelector("body");
 
-		function testStart() {
+		function tempStart() {
 			console.log("Animation Fired");
 			templatePage.classList.remove("hidden");
 
 		};
 
-		function testEnd() {
+		function tempEnd() {
 			console.log("Animation Ended");
 			templatePage.removeAttribute("style");
 			if (templatePage.classList.contains('hidden')) {
@@ -66,27 +67,29 @@
 
 		function openTemp() {
 		templatePage.style.WebkitAnimation = "Reveal 0.8s";
-		templatePage.addEventListener("webkitAnimationStart", testStart);
-		templatePage.addEventListener("webkitAnimationEnd", testEnd);
+		templatePage.addEventListener("webkitAnimationStart", tempStart);
+		templatePage.addEventListener("webkitAnimationEnd", tempEnd);
 			templatePage.classList.remove("hidden");
 			bodyBck.classList.remove("navBck");
 			bottom.classList.add('hidden');
 			top.classList.add('hidden');
 			blackBar.classList.add('hide');
 			histDivider.classList.add('hidden');
+			footer.classList.add("hide");
 	};
 
 	projects.forEach(project => project.addEventListener("click", openTemp));
 	
 	tempCloseBtn.addEventListener("click", function() {
 		templatePage.style.WebkitAnimation = "Hide 0.7s";
-		templatePage.addEventListener("webkitAnimationStart", testStart);
-		templatePage.addEventListener("webkitAnimationEnd", testEnd);
+		templatePage.addEventListener("webkitAnimationStart", tempStart);
+		templatePage.addEventListener("webkitAnimationEnd", tempEnd);
 			bodyBck.classList.add("navBck");
 			bottom.classList.remove('hidden');
 			top.classList.remove('hidden');
 			histDivider.classList.remove('hidden');
 			blackBar.classList.remove('hide');
+			footer.classList.remove("hide");
 	});
 	let templateContent = [
 	[`TRAA Salmonid Monitoring Spring 2012`, `Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members and personnel from the Upper 

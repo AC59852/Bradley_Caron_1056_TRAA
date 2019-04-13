@@ -186,6 +186,10 @@
 	text-align: center;
 }
 
+#mainFooter {
+	margin-top: 380px;
+}
+
 #paymentLeftText p
 {
 	display: flex;
@@ -381,6 +385,11 @@
 	padding-top: 90px;
 }
 
+	#burgerMenu li:nth-child(3) {
+    margin-top: 10px !important;
+}
+
+
 #paymentLeftText p
 {
 	display: flex;
@@ -396,5 +405,8 @@
 	margin-top: 30px !important;
 	width: 320px !important;
 	margin-left: 570px !important;
+}
+#mainFooter {
+	margin-top: 0;
 }
 }

@@ -332,3 +332,36 @@ ul li a {
 {
 	display: block;
 }
+
+#mainFooter {
+	height: 130px;
+	background-color: #333333;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#footerIcons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+#footerIcons img {
+	flex-basis: 15px;
+	padding-top: 20px;
+}
+
+#logoBoxFooter {
+	display: none;
+}
+
+#copyright {
+	color: white;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}

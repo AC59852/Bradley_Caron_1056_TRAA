@@ -41,18 +41,6 @@ text-align: center;
   }
 }
 
-/*Media query for enlarging footer specs*/
-
-@media screen and (min-width: 800px) {
-  #mainFooter {
-  height: 150px;
-}
-
-#footerLogo {
-  width: 150px;
-  height: 150px;
-}
-}
 
 /*Media query for changing box sizes to a larget size*/
 
@@ -214,6 +202,10 @@ text-align: center;
 }
 
 @media screen and (min-width: 1080px) {
+
+	#burgerMenu li:nth-child(3) {
+		margin-top: -40px;
+	}
 
   .topNav {
     padding-top: 50px;

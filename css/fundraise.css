@@ -101,27 +101,6 @@
 	max-width: 530px;
 }
 
-@media screen and (min-width: 610px) {
-	#paymentSect h3 {
-		font-size: 36px;
-		max-width: none !important;
-	}
-}
-
-@media screen and (min-width: 428px) {
-	#paymentSect p {
-		font-size: 14px;
-	}
-}
-
-@media screen and (min-width: 900px) {
-	#paymentSect p {
-		font-size: 16px;
-		max-width: 650px;
-		text-align: left;
-	}
-}
-
 #greenBox
 {
 	background-color: #223822;
@@ -409,4 +388,25 @@
 #mainFooter {
 	margin-top: 0;
 }
+}
+
+@media screen and (min-width: 610px) {
+	#paymentSect h3 {
+		font-size: 36px;
+		max-width: none !important;
+	}
+}
+
+@media screen and (min-width: 428px) {
+	#paymentSect p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#paymentSect p {
+		font-size: 16px;
+		max-width: 650px;
+		text-align: left;
+	}
 }

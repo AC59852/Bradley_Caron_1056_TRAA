@@ -270,7 +270,7 @@ textarea {
 
 #histDivider {
 	margin-top: 20px;
-	background-color: green;
+	background-color: #1a2b1a;
 	color: white;
 	height: 90px;
 }
@@ -723,7 +723,7 @@ textarea {
 	justify-content: space-evenly;
 	width: 80%;
 	max-width: 400px;
-	margin: -40px auto;
+	margin: 0px auto;
 }
 
 #footerIcons img {

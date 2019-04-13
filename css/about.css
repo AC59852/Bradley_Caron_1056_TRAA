@@ -368,3 +368,15 @@ ul li a {
 	position: absolute;
 	left: 50px;
 }
+
+#video {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#video iframe {
+	height: 450px;
+	margin: 0 auto;
+	width: 60%;
+}

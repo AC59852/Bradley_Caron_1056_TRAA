@@ -233,10 +233,12 @@ textarea {
 #aboutBtn { display: none; }
 
 #arrow {
-	background-color: black;
-	width: 25px;
-	height: 40px;
-	margin: 20px auto 30px auto;
+	background-image: url(../images/arrow.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	margin: 20px auto;
+	width: 50px; 
 }
 
 #iconContainer {

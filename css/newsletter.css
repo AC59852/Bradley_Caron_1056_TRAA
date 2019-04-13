@@ -143,9 +143,6 @@ width: 260px;
   left: 10px;
   height: 20px;
 }
-  #footerCon p {
-    font-size: 22px !important;
-  }
 }
 
 /*Media query for changing the button placement*/

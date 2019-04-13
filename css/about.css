@@ -334,9 +334,9 @@ ul li a {
 }
 
 #mainFooter {
-	height: 130px;
-	background-color: #333333;
+	height: 180px;
 	display: flex;
+	background-color: #333333;
 	flex-wrap: wrap;
 }
 
@@ -345,16 +345,12 @@ ul li a {
 	justify-content: space-evenly;
 	width: 80%;
 	max-width: 400px;
-	margin: 0 auto;
+	margin: 0px auto -20px;
 }
 
 #footerIcons img {
-	flex-basis: 15px;
-	padding-top: 20px;
-}
-
-#logoBoxFooter {
-	display: none;
+	width: 50px;
+	padding-top: 10px;
 }
 
 #copyright {
@@ -363,5 +359,12 @@ ul li a {
 	font-size: 12px;
 	width: 100%;
 	text-align: center;
-	margin-top: 20px;
+}
+
+#logoBoxFooter {
+	display: flex !important;
+	width: 135px;
+	padding-top: 10px;
+	position: absolute;
+	left: 50px;
 }

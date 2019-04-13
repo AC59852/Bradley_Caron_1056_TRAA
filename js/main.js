@@ -92,7 +92,7 @@
 			footer.classList.remove("hide");
 	});
 	let templateContent = [
-	[`TRAA Salmonid Monitoring Spring 2012`, `The TRAA Trout Hatchery began in the mid-1980's as an outdoor upwelling box located adjacent to Komoka Creek on private property. 
+	[`TRAA Trout Hatchery`, `The TRAA Trout Hatchery began in the mid-1980's as an outdoor upwelling box located adjacent to Komoka Creek on private property. 
 	While it was a simple and rustic affair, the TRAA enjoyed incredible egg hatching and fry survivability rates for several seasons.`, `While this setup served us well it was 
 	also very challenging to maintain. We had to pack the upwelling box with straw bales (see picture above right) to keep the water in the cells from freezing. Members of the 
 	Trout Hatchery Rotation had to huddle over each cell picking eggs in wind-driven rain, sleet and snow. Something had to be done so a new setup was housed in a new enclosure.`, 
@@ -108,8 +108,15 @@
 	 to them.`, `This hognose sucker is an indicator of good to excellent water quality.`, `Paul Noble measures the girth of a solid rainbow trout.`,
 	 `bigbrown`],
 	
-	[`test number 3`, `The TRAA and the Upper Thames River Conservation Authority (UTRCA), with the blessing of the Ministry of Natural Resources (MNR), agreed to the operation of 
-	walleye hatchery in Fanshawe Conservation Area, just north-east of London, Ontario. `, `dont appear at the middle3`],
+	[`TRAA Walleye Hatchery`, `The TRAA and the Upper Thames River Conservation Authority (UTRCA), with the blessing of the Ministry of Natural Resources (MNR), agreed to the operation of 
+	walleye hatchery in Fanshawe Conservation Area, just north-east of London, Ontario. `, `While this was a relatively short-lived initiative, it was very popular with members and
+	 the community at large. Many would conclude it was also very successful considering the exciting fishery that developed closely thereafter. The Lake Erie Management Unit 
+	 (LEMU) forced the TRAA to shut down the walleye hatchery after only three seasons of operation. The LEMU's decision was dubiously based on an American study, that the Thames 
+	 River walleye were genetically unique from the Grand River walleye (the TRAA's source for eggs). Interestingly, walleye (from egg through adult stages) continue to be 
+	 transferred throughout Ontario waterways and water bodies seemingly without regard for genetic purity.`, `oldhatchery`, `painting_hatch`, `hatchery_outside`, `The UTRCA 
+	 offered the use of a repossessed house trailer as an enclosure for the walleye hatchery operations.`, `Painting the Walleye Hatchery "TRAA green". Note the outlet from the 
+	 hatchery into the outdoor circular growth tank.`, `Here's the completed compound for the TRAA Walleye Hatchery operations with thanks to the UTRCA for the location and the 
+	 use of their well water supply.`, `hatchery`],
 	];
 
 

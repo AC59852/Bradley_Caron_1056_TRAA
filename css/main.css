@@ -517,6 +517,9 @@ textarea {
 
 
 @media screen and (min-width: 1080px){
+	.showHome {
+	display: none !important;
+}
 	#mainHeader h2 { display: none; }
 
 	#homeAbout { display: block; }

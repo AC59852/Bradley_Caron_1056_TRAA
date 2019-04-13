@@ -712,7 +712,7 @@ textarea {
 }
 
 #mainFooter {
-	height: 170px;
+	height: 180px;
 	display: flex;
 	background-color: #333333;
 	flex-wrap: wrap;
@@ -723,12 +723,12 @@ textarea {
 	justify-content: space-evenly;
 	width: 80%;
 	max-width: 400px;
-	margin: 0px auto;
+	margin: 0px auto -20px;
 }
 
 #footerIcons img {
 	width: 50px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 #logoBoxFooter {
@@ -741,7 +741,6 @@ textarea {
 	font-size: 12px;
 	width: 100%;
 	text-align: center;
-	margin-top: 20px;
 }
 
 #logoBox {

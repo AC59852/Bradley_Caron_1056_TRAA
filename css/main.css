@@ -93,8 +93,8 @@ textarea {
 #burgerMenu.toggleOn span{
   position: relative;
   font-family: 'glacial_indifferenceregular';
-  left: 93%;
-  top: 0.5%;
+  left: 85%;
+  top: 60px;
   color: red;
   font-size: 28px;
   cursor: pointer;
@@ -102,8 +102,9 @@ textarea {
 }
 
 #burgerMenu.toggleOn {
-  background-color: grey;
+  background-color: #1a2b1a;
   width: 50%;
+  max-width: 400px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -113,19 +114,29 @@ textarea {
 
 #burgerMenu.toggleOn li {
   padding-bottom: 10px;
-  margin-top: 10px;
-  padding-left: 5px;
-  border-bottom: 3px solid white;
+  margin-top: 30px;
+  padding-left: 0;
   font-size: 19.5px;
+}
+
+#burgerMenu.toggleOn li::after {
+  background-color: white;
+  content: "";
+  width: 50%;
+  height: 2px;
+  margin-top: 27px;
+  left: 22px;
+  position: absolute;
+}
+
+#burgerMenu.toggleOn li:nth-child(1)::after,
+#burgerMenu.toggleOn li:nth-child(2)::after {
+	width: 0;
 }
 
 #burgerMenu.toggleOn li a {
   text-decoration: none;
   color: white;
-}
-
-#burgerMenu li:first-of-type {
-  border-bottom: none;
 }
 
 .topNav {
@@ -161,7 +172,7 @@ textarea {
 {
 
 	font-family: 'open_sansregular';
-	font-size: 20px;
+	font-size: 13px;
 	text-decoration: none;
 	transition: all .5s ease;
 }
@@ -175,6 +186,15 @@ textarea {
   left: 10px;
   height: 45px !important;
   width: 45px;
+}
+
+#button p {
+	font-family: 'glacial_indifferencebold';
+	font-size: 24px;
+	color: #7ad598;
+	top: 35px;
+	left: 65px;
+	position: fixed;
 }
 
 .line { display: none; }
@@ -250,7 +270,7 @@ textarea {
 
 #histDivider {
 	margin-top: 20px;
-	background-color: green;
+	background-color: #1a2b1a;
 	color: white;
 	height: 90px;
 }
@@ -520,7 +540,13 @@ textarea {
 
 #homeTop { background-image: none; }
 
-#burgerMenu.toggleOn { padding-left: 25px; 
+#burgerMenu.toggleOn { padding-left: 25px; }
+
+#burgerMenu.toggleOn li {
+	padding-left: 25px;
+}
+#burgerMenu.toggleOn object {
+	display: block
 }
 .topNav {
 	margin-top: -20px !important;
@@ -555,7 +581,7 @@ textarea {
 .topNav ul li a
 {
 	font-family: 'open_sansregular';
-	font-size: 20px;
+	font-size: 20px !important;
 	color: white;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -620,4 +646,104 @@ textarea {
 #aboutText { display: none; }
 
 #arrow { display: none; }
+
+.logoNav {
+	display: none;
+}
+
+#logoBoxFooter {
+	display: flex !important;
+	width: 135px;
+	padding-top: 10px;
+	position: absolute;
+	left: 50px;
+}
+
+.showHome {
+	display: none !important;
+}
+
+#icons {
+	display: none !important;
+}
+}
+
+#icons {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+}
+
+#icons object {
+	flex-basis: 50px;
+}
+
+.insta {
+	width: 50px;
+}
+
+.logoNav {
+	width: 70%;
+	position: absolute;
+	left: 4%;
+	top: 25px;
+	max-width: 150px;
+}
+
+#burgerMenu li:nth-child(3) {
+	margin-top: 40px;
+}
+
+@media screen and (min-width: 430px) {
+	.logoNav {
+		top: 20px;
+		left: 15%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 630px) {
+	.logoNav {
+		left: 27%;
+	}
+	.topNav ul li a {
+		font-size: 16px;
+	}
+}
+
+#mainFooter {
+	height: 170px;
+	display: flex;
+	background-color: #333333;
+	flex-wrap: wrap;
+}
+
+#footerIcons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	max-width: 400px;
+	margin: 0px auto;
+}
+
+#footerIcons img {
+	width: 50px;
+	padding-top: 20px;
+}
+
+#logoBoxFooter {
+	display: none;
+}
+
+#copyright {
+	color: white;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#logoBox {
+	display: none;
 }

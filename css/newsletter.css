@@ -159,6 +159,9 @@ width: 260px;
 }
 
 @media screen and (min-width: 1080px) {
+      #burgerMenu li:nth-child(3) {
+    margin-top: -40px !important;
+}
 
   .topNav ul li {
     margin-top: -40px;

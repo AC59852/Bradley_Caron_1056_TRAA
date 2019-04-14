@@ -68,11 +68,6 @@
 
 }
 
-#contactForm
-{
-	
-}
-
 #mailInfo
 {
 	color: white;
@@ -220,8 +215,7 @@
 	color: white;
 	font-family: 'open_sansregular';
 	font-weight: bold;
-	position: relative;
-	left: -310px;
+	margin-left: -290px;
 
 
 }
@@ -233,6 +227,9 @@
 }
 
 @media screen and (min-width: 1080px) {
+	      #burgerMenu li:nth-child(3) {
+    margin-top: 10px !important;
+}
 
 	.topNav ul li {
 		margin-top: 10px;
@@ -311,10 +308,9 @@
 
 #mailInfo
 {
-	position: relative;
 	margin-top: -90px;
 	margin-bottom: 50px;
-	left: -500px;
+	margin-left: -450px;
 	font-family: 'open_sansregular';
 	font-weight: bold;
 }

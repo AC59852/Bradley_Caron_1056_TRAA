@@ -1,4 +1,5 @@
-
+/*The reason this page has CSS that would be in main is because main.css has info that would shrink this page and mess up the layout. This page is also specific to desktop,
+so the code that's here makes it much more functionable on desktop*/
 
 @font-face {
     font-family: 'open_sansregular';
@@ -21,7 +22,6 @@
     src: url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -232,7 +232,6 @@ ul li a {
 	padding-top: 20px;
 }
 
-/*Start of Bottom Half of About*/
 #histDivider
 {
 	height: 200px;
@@ -323,12 +322,55 @@ ul li a {
 	display: none;
 }
 
-/* End of DO NOT CHANGE SECTION*/
-
-/* Start of Homepage*/
-
-
 .visible
 {
 	display: block;
+}
+
+#mainFooter {
+	height: 180px;
+	display: flex;
+	background-color: #333333;
+	flex-wrap: wrap;
+}
+
+#footerIcons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	max-width: 400px;
+	margin: 0px auto -20px;
+}
+
+#footerIcons img {
+	width: 50px;
+	padding-top: 10px;
+}
+
+#copyright {
+	color: white;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+
+#logoBoxFooter {
+	display: flex !important;
+	width: 135px;
+	padding-top: 10px;
+	position: absolute;
+	left: 50px;
+}
+
+#video {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#video iframe {
+	height: 450px;
+	margin: 0 auto;
+	width: 60%;
 }

@@ -101,27 +101,6 @@
 	max-width: 530px;
 }
 
-@media screen and (min-width: 610px) {
-	#paymentSect h3 {
-		font-size: 36px;
-		max-width: none !important;
-	}
-}
-
-@media screen and (min-width: 428px) {
-	#paymentSect p {
-		font-size: 14px;
-	}
-}
-
-@media screen and (min-width: 900px) {
-	#paymentSect p {
-		font-size: 16px;
-		max-width: 650px;
-		text-align: left;
-	}
-}
-
 #greenBox
 {
 	background-color: #223822;
@@ -184,6 +163,10 @@
 	margin-bottom: 50px;
 	font-size: 24px;
 	text-align: center;
+}
+
+#mainFooter {
+	margin-top: 380px;
 }
 
 #paymentLeftText p
@@ -381,6 +364,11 @@
 	padding-top: 90px;
 }
 
+	#burgerMenu li:nth-child(3) {
+    margin-top: 10px !important;
+}
+
+
 #paymentLeftText p
 {
 	display: flex;
@@ -397,4 +385,28 @@
 	width: 320px !important;
 	margin-left: 570px !important;
 }
+#mainFooter {
+	margin-top: 0;
+}
+}
+
+@media screen and (min-width: 610px) {
+	#paymentSect h3 {
+		font-size: 36px;
+		max-width: none !important;
+	}
+}
+
+@media screen and (min-width: 428px) {
+	#paymentSect p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#paymentSect p {
+		font-size: 16px;
+		max-width: 650px;
+		text-align: left;
+	}
 }

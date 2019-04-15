@@ -19,25 +19,6 @@
 	margin-bottom: 100px;
 }
 
-#contactLeftText h4
-{
-	color: white;
-	margin-left: 500px;
-	margin-top: 150px;
-	margin-bottom: 50px;
-	font-weight: bold;
-	padding-top: 50px;
-}
-
-#contactLeftText p
-{
-	display: flex;
-	flex-direction: column;
-	width: 320px;
-	color: white;
-	margin: 10px 550px;
-}
-
 #contactForm
 {
 	display: flex;
@@ -74,12 +55,10 @@
 	font-family: 'open_sansregular';
 	margin: 20px auto;
 	font-weight: bold;
-
 }
 
 #mailInfo h5
 {	
-
 	font-size: 30px;
 	margin: 0 auto;
 	padding-bottom: 10px;
@@ -157,36 +136,14 @@
 {
 #contactSect
 {
-	color: white;
-	font-family: 'open_sansregular';
-	text-align: center;
 	display: flex;
 	width: 600px;
 }
 
 #contactSect h3
 {
-	font-family: 'glacial_indifferencebold';
 	font-size: 36px;
 	margin-bottom: 100px;
-}
-
-#contactLeftText h4
-{
-	color: white;
-	margin-top: 150px;
-	margin-bottom: 50px;
-	font-weight: bold;
-	padding-top: 50px;
-}
-
-#contactLeftText p
-{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	color: white;
-	margin: 10px 550px;
 }
 
 #contactForm
@@ -212,12 +169,7 @@
 
 #mailInfo
 {
-	color: white;
-	font-family: 'open_sansregular';
-	font-weight: bold;
 	margin-left: -290px;
-
-
 }
 
 #mailInfo h5
@@ -225,6 +177,31 @@
 	margin-top: 40px;
 }
 }
+
+@media screen and (min-width: 1250px) {
+	#mapDiv {
+		margin-left: 15% !important;
+	}
+}
+
+@media screen and (min-width: 1419px) {
+	#mailInfo {
+		margin-left: -500px !important;
+	}
+}
+
+@media screen and (min-width: 1646px) {
+	#mailInfo {
+		margin-left: -570px !important;
+	}
+}
+
+@media screen and (min-width: 1780px) {
+	#mailInfo {
+		margin-left: -670px !important;
+	}
+}
+
 
 @media screen and (min-width: 1080px) {
 	      #burgerMenu li:nth-child(3) {
@@ -237,8 +214,7 @@
 #contactSect
 {
 	color: white;
-	font-family: 'open_sansregular';
-	width: 960px;
+	width: 60%;
 	margin: 250px auto 60px;
 	text-align: center;
 	background-color: #223822;
@@ -249,42 +225,21 @@
 	margin: 15px 0;
 }
 
+#mapDiv {
+	margin-left: 5%;
+}
+
 #contactSect h3
 {
-	font-family: 'glacial_indifferencebold';
 	font-size: 36px;
 	margin-bottom: 100px;
 }
 
-#contactLeftText h4
-{
-	color: white;
-	margin-left: 500px;
-	margin-top: 150px;
-	margin-bottom: 50px;
-	font-weight: bold;
-	padding-top: 50px;
+#contactForm {
+	margin-left: -50px !important;
+	padding-right: 70px;
 }
 
-#contactLeftText p
-{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	color: white;
-	margin: 10px 550px;
-}
-
-#contactForm
-{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	color: white;
-	margin-top: -550px;
-	margin-left: 50px;
-	padding-top: 50px;
-}
 
 #contactForm label
 {
@@ -311,8 +266,6 @@
 	margin-top: -90px;
 	margin-bottom: 50px;
 	margin-left: -450px;
-	font-family: 'open_sansregular';
-	font-weight: bold;
 }
 
 #map iframe {

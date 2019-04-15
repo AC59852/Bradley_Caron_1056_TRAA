@@ -217,8 +217,7 @@
 }
 
 
-	#tempClose {
-		position: sticky;
+#tempClose {
 		width: 35px;
 		top: 75px;
 		margin-left: 250px; 
@@ -236,14 +235,11 @@
 	margin-top: 150px !important;
 	margin-bottom: 130px;
 }
-	#imageContainer
 
+#imageContainer
 {
-	display: flex;
-	flex-direction: row;
 	justify-content: space-evenly;
-	text-align: center;
-	margin: 150px auto;
+	margin: 50px auto;
 }
 .projImage {
 	max-width: 430px;
@@ -263,28 +259,21 @@
 	padding-top: 50px;
 }
 
-
 .projImage a
 {
 	text-decoration: none;
 	margin: 0 auto;
 }
 
-
 #projLinks a
 {
-	display: flex;
 	width: 1000px;
 	margin: 15px auto !important;
 }
 
 #projText
 {
-	font-family: 'open_sansregular';
-	color: #333333;
-	padding-top: 60px;
 	font-size: 20px;
-	text-align: center;
 	padding-bottom: 60px;
 }
 
@@ -292,8 +281,6 @@
 {
 	display: flex;
 	flex-direction: column;
-	font-size: 17px;
-	margin-bottom: 50px;
 	justify-content: space-evenly;
 	height: 60px;
 	margin-bottom: 110px;
@@ -302,8 +289,6 @@
 
 #projLinks h4
 {
-	color: #333333;
-	font-family: 'glacial_indifferencebold';
 	font-size: 21px;
 	text-align: center;
 	padding-bottom: 20px;
@@ -317,9 +302,7 @@
 
 #projLinks a
 {
-	font-family: 'open_sansregular';
 	font-weight: bold;
-	text-decoration: none;
 	color: #333333;
 	font-size: 18px;
 	max-width: 100%;
@@ -328,7 +311,7 @@
 
 #topProjects p {
 	font-size: 18px;
-	text-align: left;
+
 }
 
 .templateImage p {

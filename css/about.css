@@ -132,6 +132,9 @@ ul li a {
 
 .iconSize p {
 	width: 150px;
+	font-family: 'open_sansregular';
+	color: black;
+	padding-top: 20px;
 }
 
 .iconSize img {
@@ -142,36 +145,21 @@ ul li a {
 @media screen and (min-width: 1120px) {
 	.iconSize
 {
-	margin: 0 auto;
-	padding-left: 70px;
-	height: 100px;
 	width: 250px;
-	margin-bottom: 120px;
-	padding-bottom: 70px;
 }
 }
 
 @media screen and (min-width: 1280px) {
 	.iconSize
 {
-	margin: 0 auto;
-	padding-left: 70px;
-	height: 100px;
 	width: 290px;
-	margin-bottom: 120px;
-	padding-bottom: 70px;
 }
 }
 
 @media screen and (min-width: 1440px) {
 	.iconSize
 {
-	margin: 0 auto;
-	padding-left: 70px;
-	height: 100px;
 	width: 360px;
-	margin-bottom: 120px;
-	padding-bottom: 70px;
 }
 
 .topNav ul li a {
@@ -184,29 +172,13 @@ ul li a {
 
 #iconContainer
 {
-	display: flex;
-	flex-direction: row;	
-	flex-wrap: wrap;
 	margin: 200px 0;
 }
 
 .iconSize
 {
-	margin: 0 auto;
 	padding-left: 190px;
-	height: 100px;
 	width: 350px;
-	margin-bottom: 120px;
-	padding-bottom: 70px;
-}
-
-.iconSize p {
-	width: 150px;
-}
-
-.iconSize img {
-	height: 110px;
-	width: 110px;
 }
 }
 
@@ -224,13 +196,6 @@ ul li a {
 
 #sport
 { line-height: 17px; }
-
-.iconSize p
-{
-	font-family: 'open_sansregular';
-	color: black;
-	padding-top: 20px;
-}
 
 #histDivider
 {
